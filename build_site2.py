@@ -94,21 +94,26 @@ h1 span{color:var(--accent)}
 .chart-box{position:relative;height:280px}
 .chart-box.tall{height:320px}
 table{width:100%;border-collapse:collapse;font-size:.83rem}
-th,td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left;white-space:nowrap}
+th,td{padding:8px 10px;border-bottom:1px solid var(--border);border-right:1px solid var(--border);text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:none}
+td.clip-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:none}
+td.wrap-cell{white-space:normal;overflow:visible;text-overflow:clip;word-break:break-word}
+thead th{border-bottom:1px solid var(--border)}
+tr > *:last-child{border-right:none}
 th{color:var(--muted);font-weight:600;font-size:.74rem;text-transform:uppercase;letter-spacing:.03em;cursor:pointer;user-select:none;position:sticky;top:0;background:var(--card);z-index:2}
-th .resizer{position:absolute;top:0;right:0;width:6px;height:100%;cursor:col-resize;user-select:none;z-index:3}
-th .resizer:hover,th .resizer.active{background:var(--accent);opacity:.75}
+th .resizer{position:absolute;top:0;right:0;width:7px;height:100%;cursor:col-resize;user-select:none;z-index:3;background:linear-gradient(to right, transparent 0 3px, var(--border) 3px 5px, transparent 5px)}
+th .resizer:hover,th .resizer.active{background:var(--accent);opacity:.9}
 table.col-resizing{cursor:col-resize}
 table.col-resizing th{cursor:col-resize}
 .col-hidden{display:none !important}
 .col-picker{position:relative;display:inline-block}
 .col-picker-btn{background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:9px 12px;font-size:.88rem;cursor:pointer}
 .col-picker-btn:hover{border-color:var(--accent)}
-.col-menu{display:none;position:absolute;top:calc(100% + 6px);right:0;z-index:50;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px;min-width:260px;max-height:360px;overflow:auto;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+.col-menu{display:none;position:absolute;top:calc(100% + 6px);left:0;right:auto;z-index:50;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px;min-width:260px;max-height:360px;overflow:auto;box-shadow:0 12px 40px rgba(0,0,0,.45)}
 .col-menu.open{display:block}
-.col-menu label{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:8px;font-size:.86rem;cursor:pointer;color:var(--text)}
+.col-menu label{display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:6px 8px;border-radius:8px;font-size:.86rem;cursor:pointer;color:var(--text);text-align:left;width:100%}
 .col-menu label:hover{background:rgba(91,140,255,.12)}
-.col-menu input{accent-color:var(--accent)}
+.col-menu input{accent-color:var(--accent);margin:0;flex:0 0 auto}
+.col-menu label span{flex:1 1 auto;text-align:left}
 .col-menu .col-actions{display:flex;gap:8px;margin-top:8px;padding-top:8px;border-top:1px solid var(--border)}
 .col-menu .col-actions button{flex:1;background:var(--card2);border:1px solid var(--border);color:var(--muted);border-radius:8px;padding:7px 10px;cursor:pointer;font-size:.8rem}
 .col-menu .col-actions button:hover{color:var(--text);border-color:var(--accent)}
@@ -623,16 +628,33 @@ function applyColVisibility(tableId){
   });
 }
 
+function setColWidth(table, idx, w){
+  const ths = table.querySelectorAll('thead th');
+  const th = ths[idx];
+  if(!th) return;
+  th.style.width = w + 'px';
+  th.style.minWidth = w + 'px';
+  th.style.maxWidth = w + 'px';
+  table.style.width = 'max-content';
+  table.querySelectorAll('tbody tr').forEach(function(tr){
+    const cell = tr.children[idx];
+    if(!cell) return;
+    cell.style.width = w + 'px';
+    cell.style.minWidth = w + 'px';
+    cell.style.maxWidth = w + 'px';
+  });
+}
+
 function applyColWidths(tableId){
   const table = document.getElementById(tableId);
   if(!table) return;
   const w = loadJSON(colWidthKey(tableId), {});
-  const ths = [...table.querySelectorAll('thead th')];
   let any = false;
-  ths.forEach(function(th, i){
-    if(w[i] != null && w[i] > 40){
-      th.style.width = w[i] + 'px';
-      th.style.minWidth = w[i] + 'px';
+  Object.keys(w).forEach(function(k){
+    const i = parseInt(k, 10);
+    const px = w[k];
+    if(!isNaN(i) && px != null && px > 40){
+      setColWidth(table, i, px);
       any = true;
     }
   });
@@ -690,10 +712,13 @@ function buildColMenu(tableId, menuId){
       th.classList.remove('col-hidden');
       th.style.width = '';
       th.style.minWidth = '';
+      th.style.maxWidth = '';
       table.querySelectorAll('tbody tr').forEach(function(tr){
         if(tr.children[i]){
           tr.children[i].classList.remove('col-hidden');
           tr.children[i].style.width = '';
+          tr.children[i].style.minWidth = '';
+          tr.children[i].style.maxWidth = '';
         }
       });
     });
@@ -730,12 +755,7 @@ function initColResize(tableId){
       function onMove(ev){
         const dx = ev.clientX - startX;
         const w = Math.max(48, Math.round(startW + dx));
-        th.style.width = w + 'px';
-        th.style.minWidth = w + 'px';
-        table.style.width = 'max-content';
-        table.querySelectorAll('tbody tr').forEach(function(tr){
-          if(tr.children[idx]) tr.children[idx].style.minWidth = w + 'px';
-        });
+        setColWidth(table, idx, w);
       }
       function onUp(){
         document.removeEventListener('mousemove', onMove);
@@ -745,6 +765,7 @@ function initColResize(tableId){
         document.body.style.cursor = '';
         document.body.style.userSelect = '';
         const w = Math.round(th.getBoundingClientRect().width);
+        setColWidth(table, idx, w);
         const saved = loadJSON(colWidthKey(tableId), {});
         saved[idx] = w;
         saveJSON(colWidthKey(tableId), saved);
@@ -834,11 +855,11 @@ function renderSkus(){
     const profitCls = (profit==null) ? '' : (profit<0 ? 'bad' : 'good');
     return '<tr>'+
       '<td><b>'+esc(r.offer_id)+'</b></td>'+
-      '<td style="max-width:220px;overflow:hidden;text-overflow:ellipsis" title="'+esc(r.name)+'">'+esc(r.name||'—')+'</td>'+
+      '<td class="clip-name" title="'+esc(r.name)+'">'+esc(r.name||'—')+'</td>'+
       '<td class="num">'+fmt0(r.qty_sold)+'</td>'+
       '<td class="num"><b>'+fmt0(r.price_ozon)+'</b></td>'+
       '<td class="num">'+(r.competitor_price?fmt0(r.competitor_price):'—')+'</td>'+
-      '<td class="mini" style="white-space:normal;max-width:200px" title="'+esc(r.competitor_display||r.competitor_source||'')+'">'+esc(r.competitor_display||'—').replace(/\\n/g,'<br>')+'</td>'+
+      '<td class="mini wrap-cell" title="'+esc(r.competitor_display||r.competitor_source||'')+'">'+esc(r.competitor_display||'—').replace(/\\n/g,'<br>')+'</td>'+
       '<td class="num">'+fmt0(r.gross_product)+'</td>'+
       '<td class="num bad">'+fmt0(r.total_fees)+'</td>'+
       '<td class="num"><div class="bar"><i style="width:'+Math.min(take,100)+'%;background:'+color+'"></i></div><span class="mini">'+fmt(take)+'%</span></td>'+
@@ -855,6 +876,7 @@ function renderSkus(){
   const el = document.getElementById('skuCount');
   if(el) el.textContent = 'Показано '+show.length+' из '+rows.length+' отфильтрованных (всего '+ (DATA.skus||[]).length +' SKU в выгрузке)';
   applyColVisibility('skuTable');
+  applyColWidths('skuTable');
 }
 
 /* ---------- RECS ---------- */
@@ -872,12 +894,12 @@ function renderRecs(){
     const profitCls = (profit==null)?'':(profit<0?'bad':'good');
     return '<tr>'+
       '<td><b>'+esc(r.offer_id)+'</b></td>'+
-      '<td style="max-width:190px;overflow:hidden;text-overflow:ellipsis">'+esc(r.name||'')+'</td>'+
+      '<td class="clip-name">'+esc(r.name||'')+'</td>'+
       '<td class="num"><b>'+fmt0(r.current_price_ozon)+'</b></td>'+
       '<td class="num mini">'+fmt0(r.avg_sale_price)+'</td>'+
       '<td class="num">'+fmt0(r.cost_rub)+'</td>'+
       '<td class="num">'+(r.competitor_price?fmt0(r.competitor_price):'—')+'</td>'+
-      '<td class="mini" style="white-space:normal;max-width:190px">'+esc(r.competitor_display||'—').replace(/\\n/g,'<br>')+'</td>'+
+      '<td class="mini wrap-cell">'+esc(r.competitor_display||'—').replace(/\\n/g,'<br>')+'</td>'+
       '<td class="num">'+fmt(r.ozon_take_pct)+'%</td>'+
       '<td class="num">'+fmt0(r.payout_per_unit)+'</td>'+
       '<td class="num '+profitCls+'">'+fmt(profit)+'</td>'+
@@ -889,6 +911,7 @@ function renderRecs(){
   const el = document.getElementById('recCount');
   if(el) el.textContent = 'Показано '+show.length+' из '+rows.length;
   applyColVisibility('recTable');
+  applyColWidths('recTable');
 }
 
 /* ---------- COSTS ---------- */
@@ -913,7 +936,7 @@ function renderCosts(){
     const diffCls = (diff==null)?'':(diff>0?'bad':'good');
     return '<tr>'+
       '<td><b>'+esc(r.offer_id)+'</b></td>'+
-      '<td style="max-width:200px;overflow:hidden;text-overflow:ellipsis">'+esc(r.name||r.sheet_name||'')+'</td>'+
+      '<td class="clip-name">'+esc(r.name||r.sheet_name||'')+'</td>'+
       '<td class="num">'+fmt0(r.cost_rub)+'</td>'+
       '<td class="num">'+fmt0(r.ozon_fee_plan)+'</td>'+
       '<td class="num">'+fmt0(r.ozon_fee_actual_unit)+'</td>'+
@@ -928,6 +951,7 @@ function renderCosts(){
   const el = document.getElementById('costCount');
   if(el) el.textContent = 'Показано '+show.length+' из '+rows.length+' SKU с себестоимостью';
   applyColVisibility('costTable');
+  applyColWidths('costTable');
 }
 
 /* ---------- FEE TABLE ---------- */
