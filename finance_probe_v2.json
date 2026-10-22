@@ -1,0 +1,116 @@
+[
+  {
+    "path": "/v1/analytics/data",
+    "note": "analytics sku metrics",
+    "status": 429,
+    "body": "{\"code\":8,\"message\":\"You have reached request rate limit per second\"}"
+  },
+  {
+    "path": "/v1/analytics/data",
+    "note": "analytics day",
+    "status": 200,
+    "body": "{\"result\":{\"data\":[{\"dimensions\":[{\"id\":\"2026-09-12\",\"name\":\"\"}],\"metrics\":[180510,219]},{\"dimensions\":[{\"id\":\"2026-09-13\",\"name\":\"\"}],\"metrics\":[150855,205]},{\"dimensions\":[{\"id\":\"2026-09-14\",\"name\":\"\"}],\"metrics\":[212796,258]},{\"dimensions\":[{\"id\":\"2026-09-15\",\"name\":\"\"}],\"metrics\":[197103,242]},{\"dimensions\":[{\"id\":\"2026-09-16\",\"name\":\"\"}],\"metrics\":[267191,308]},{\"dimensions\":[{\"id\":\"2026-09-17\",\"name\":\"\"}],\"metrics\":[238719,302]},{\"dimensions\":[{\"id\":\"2026-09-18\",\"name\":\"\"}],\"metrics\":[244887,287]},{\"dimensions\":[{\"id\":\"2026-09-19\",\"name\":\"\"}],\"metrics\":[209482,265]},{\"dimensions\":[{\"id\":\"2026-09-20\",\"name\":\"\"}],\"metrics\":[231344,278]},{\"dimensions\":[{\"id\":\"2026-09-21\",\"name\":\"\"}],\"metrics\":[244857,324]},{\"dimensions\":[{\"id\":\"2026-09-22\",\"name\":\"\"}],\"metrics\":[314303,344]},{\"dimensions\":[{\"id\":\"2026-09-23\",\"name\":\"\"}],\"metrics\":[348853,371]},{\"dimensions\":[{\"id\":\"2026-09-24\",\"name\":\"\"}],\"metrics\":[379023,344]},{\"dimensions\":[{\"id\":\"2026-09-25\",\"name\":\"\"}],\"metrics\":[285629,287]},{\"dimensions\":[{\"id\":\"2026-09-26\",\"name\":\"\"}],\"metrics\":[241749,265]},{\"dimensions\":[{\"id\":\"2026-09-27\",\"name\":\"\"}],\"metrics\":[217864,273]},{\"dimensions\":[{\"id\":\"2026-09-28\",\"name\":\"\"}],\"metrics\":[277666,319]},{\"dimensions\":[{\"id\":\"2026-09-29\",\"name\":\"\"}],\"metrics\":[265718,303]},{\"dimensions\":[{\"id\":\"2026-09-30\",\"name\":\"\"}],\"metrics\":[313883,334]},{\"dimensions\":[{\"id\":\"2026-10-01\",\"name\":\"\"}],\"metrics\":[293221,321]},{\"dimensions\":[{\"id\":\"2026-10-02\",\"name\":\"\"}],\"metrics\":[279699,315]},{\"dimensions\":[{\"id\":\"2026-10-03\",\"name\":\"\"}],\"metrics\":[251789,265]},{\"dimensions\":[{\"id\":\"2026-10-04\",\"name\":\"\"}],\"metrics\":[238790,265]},{\"dimensions\":[{\"id\":\"2026-10-05\",\"name\":\"\"}],\"metrics\":[281659,273]},{\"dimensions\":[{\"id\":\"2026-10-06\",\"name\":\"\"}],\"metrics\":[347284,382]},{\"dimensions\":[{\"id\":\"2026-10-07\",\"name\":\"\"}],\"metrics\":[368933,343]},{\"dimensions\":[{\"id\":\"2026-10-08\",\"name\":\"\"}],\"metrics\":[323704,311]},{\"dimensions\":[{\"id\":\"2026-10-09\",\"name\":\"\"}],\"metrics\":[378965,319]},{\"dimensions\":[{\"id\":"
+  },
+  {
+    "path": "/v1/finance/transaction-list",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/transaction-list/list",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/transaction/list",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v3/finance/transaction-list",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/api/finance/transaction-list",
+    "note": "finance variant",
+    "status": 403,
+    "body": "\n\n{\"incidentId\": \"fab_20261022100150_01M5HGYM8J2TSJ5PCDYE2FS4B3\", \"supportURL\": \"https://www.ozon.ru/complaint/support/?incident_id=fab_20261022100150_01M5HGYM8J2TSJ5PCDYE2FS4B3&token=1.GtiEvWSPhOgIwZOqr_oXgW6iZOtV-ZPixXKa3AaUiT9QQkEJe_L9YsPfvH_HZIj657wJftrZ8EpXxfckeFdhquyrBRCFCY17yjCDzyIkcRr_77cJXJHIVHjTYwxMI1RidT-v1_4zJ331-1OAutBiUAgjrAVlXG7_6H789QAvPXQlpXsgV1TJdEaw3Cg_JgVpEEa6_CFtGArqXseG1mRWSl4yl4qIP5QN&via=json\", \"timeoutSec\": 180, \"blockURL\": \"https://api-seller.ozon.ru/block.html?incident_id=fab_20261022100150_01M5HGYM8J2TSJ5PCDYE2FS4B3&token=1.GtiEvWSPhOgIwZOqr_oXgW6iZOtV-ZPixXKa3AaUiT9QQkEJe_L9YsPfvH_HZIj657wJftrZ8EpXxfckeFdhquyrBRCFCY17yjCDzyIkcRr_77cJXJHIVHjTYwxMI1RidT-v1_4zJ331-1OAutBiUAgjrAVlXG7_6H789QAvPXQlpXsgV1TJdEaw3Cg_JgVpEEa6_CFtGArqXseG1mRWSl4yl4qIP5QN&comp_nw=&bm=block_2&br_i=&br_c=&comp_domain=www.ozon.ru\"}\n\n"
+  },
+  {
+    "path": "/v1/finance/cash-flow-statement",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/cash-flow",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/supplier/finance/realization",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/realization",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v2/finance/transaction-list",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/transactions",
+    "note": "finance variant",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v3/posting/fbs/list",
+    "note": "fbs list",
+    "status": 403,
+    "body": "{\"code\":7,\"message\":\"Api-Key is missing a required role for a method\"}"
+  },
+  {
+    "path": "/v2/posting/fbs/act/create",
+    "note": "act create",
+    "status": 403,
+    "body": "{\"code\":7,\"message\":\"Api-Key is missing a required role for a method\"}"
+  },
+  {
+    "path": "/v1/posting/fbs/act/get-pdf",
+    "note": "act pdf",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v2/product/info/prices",
+    "note": "prices v2",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v2/products/stocks",
+    "note": "stocks validate",
+    "status": 200,
+    "body": "{\"result\":[{\"warehouse_id\":1,\"product_id\":0,\"offer_id\":\"NK5415\",\"updated\":false,\"errors\":[{\"code\":\"WAREHOUSE_NOT_FOUND\",\"message\":\"warehouse has wrong id: 1\"}]}]}"
+  },
+  {
+    "path": "/v1/warehouse/list",
+    "note": "warehouses",
+    "status": 400,
+    "body": "{\"code\":9,\"message\":\"obsolete method cannot be used\"}"
+  }
+]

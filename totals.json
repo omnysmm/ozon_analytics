@@ -1,0 +1,19 @@
+{
+ "skus_sold": 549,
+ "qty_sold": 7649,
+ "gross_product": 6681588.09,
+ "revenue_cash": 3208746.38,
+ "loyalty_points": 3422711.17,
+ "commission": -3084638.02,
+ "logistics": -597611.57,
+ "last_mile": -82350.4,
+ "acquiring": -54244.24,
+ "reverse_logistics": -55413.0,
+ "premium": -176906.11,
+ "stars": -106153.89,
+ "review_mgmt": -45982.92,
+ "total_fees": 4243204.95,
+ "payout": 2436968.22,
+ "ozon_take_pct": 63.51,
+ "payout_pct": 36.47
+}

@@ -1,0 +1,31 @@
+# Secrets / local config
+ozon_config.json
+.env
+*.key
+*.pem
+
+# Browser profiles
+.edge_profile/
+.chr_profile/
+
+# Heavy dumps & binary blobs
+charges_raw.json
+gsheet_download.bin
+__pycache__/
+*.pyc
+
+# Screenshots / temp artifacts
+*.png
+*.bin
+ozon_product_*.html
+ozon_search_*.html
+composer_*.json
+.edge_profile
+.chr_profile
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local node
+node_modules/

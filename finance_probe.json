@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/v1/finance/transaction-list",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/finance/cash-flow-statement",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v3/posting/fbs/list",
+    "status": 403,
+    "body": "{\"code\":7,\"message\":\"Api-Key is missing a required role for a method\"}"
+  },
+  {
+    "path": "/v3/posting/fbo/list",
+    "status": 403,
+    "body": "{\"code\":7,\"message\":\"Api-Key is missing a required role for a method\"}"
+  },
+  {
+    "path": "/v2/posting/fbs/act/create",
+    "status": 403,
+    "body": "{\"code\":7,\"message\":\"Api-Key is missing a required role for a method\"}"
+  },
+  {
+    "path": "/v1/finance/act/create",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/posting/fbs/list",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v2/supplier/finance/realization",
+    "status": 404,
+    "body": "404 page not found\n"
+  },
+  {
+    "path": "/v1/supplier/finance/realization",
+    "status": 404,
+    "body": "404 page not found\n"
+  }
+]

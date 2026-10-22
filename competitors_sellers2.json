@@ -1,0 +1,38 @@
+{
+ "NK5415": {
+  "error": "Page.wait_for_timeout: Target page, context or browser has been closed"
+ },
+ "NK54125": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "I-D-P": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "REGIL-P-5MM-10M": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "REGIL-P-7MM-10M": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "REGIL-P-6MM-10M": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "NL24": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "NK6115": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "KM5415O25PSH": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "NL4": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "SCOTCH48MM-10P": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ },
+ "LN6N30": {
+  "error": "Page.goto: Target page, context or browser has been closed"
+ }
+}

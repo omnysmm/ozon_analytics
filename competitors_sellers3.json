@@ -1,0 +1,14 @@
+{
+ "NK5415": {
+  "error": "Page.goto: net::ERR_FAILED at https://www.ozon.ru/product/255832676/\nCall log:\n  - navigating to \"https://www.ozon.ru/product/255832676/\", waiting until \"domcontentloaded\"\n"
+ },
+ "NK54125": {
+  "error": "Page.goto: net::ERR_FAILED at https://www.ozon.ru/product/306414751/\nCall log:\n  - navigating to \"https://www.ozon.ru/product/306414751/\", waiting until \"domcontentloaded\"\n"
+ },
+ "I-D-P": {
+  "error": "Page.goto: net::ERR_FAILED at https://www.ozon.ru/product/1424446737/\nCall log:\n  - navigating to \"https://www.ozon.ru/product/1424446737/\", waiting until \"domcontentloaded\"\n"
+ },
+ "NL24": {
+  "error": "Page.goto: net::ERR_FAILED at https://www.ozon.ru/product/306414721/\nCall log:\n  - navigating to \"https://www.ozon.ru/product/306414721/\", waiting until \"domcontentloaded\"\n"
+ }
+}
