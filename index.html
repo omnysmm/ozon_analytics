@@ -221,6 +221,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="diff">По отклонению план/факт</option>
       </select>
       <button type="button" id="fReset">Сброс</button>
+      <button type="button" class="ghost btn-xls" data-xls="sku">Excel</button>
       <div class="col-picker" id="colPickerSku">
         <button type="button" class="col-picker-btn" data-toggle="colMenuSku">Столбцы ▾</button>
         <div class="col-menu" id="colMenuSku"></div>
@@ -258,7 +259,9 @@ tr:hover td{background:rgba(91,140,255,.06)}
 <section class="section" id="sec-fees">
   <div class="grid row2">
     <div class="card">
-      <h3>Начисления Ozon, ₽ (факт)</h3>
+      <h3>Начисления Ozon, ₽ (факт)
+        <button type="button" class="ghost btn-xls" data-xls="fee" style="float:right;padding:6px 12px;font-size:.8rem">Excel</button>
+      </h3>
       <div class="tbl-wrap" style="max-height:440px">
         <table>
           <thead><tr><th>Статья</th><th class="num">Сумма ₽</th><th class="num">% от выручки</th><th>Доля</th></tr></thead>
@@ -317,6 +320,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="low">Маржа &lt; 20%</option>
         <option value="ok">Маржа ≥ 20%</option>
       </select>
+      <button type="button" class="ghost btn-xls" data-xls="rec">Excel</button>
       <div class="col-picker" id="colPickerRec">
         <button type="button" class="col-picker-btn" data-toggle="colMenuRec">Столбцы ▾</button>
         <div class="col-menu" id="colMenuRec"></div>
@@ -418,6 +422,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="low">Маржа &lt; 20%</option>
         <option value="ok">Маржа ≥ 20%</option>
       </select>
+      <button type="button" class="ghost btn-xls" data-xls="cost">Excel</button>
       <div class="col-picker" id="colPickerCost">
         <button type="button" class="col-picker-btn" data-toggle="colMenuCost">Столбцы ▾</button>
         <div class="col-menu" id="colMenuCost"></div>
@@ -465,6 +470,185 @@ const DATA = {
   svcPct: 5.19,
   miscPct: 3.21
 };
+
+/* full filtered rows for Excel export (not the on-screen 200-row cap) */
+const EXPORT_STATE = { sku: [], rec: [], cost: [], fee: [] };
+
+const XLS_DEFS = {
+  sku: {
+    tableId: 'skuTable',
+    sheet: 'По артикулам',
+    file: 'pugovitsnet_sku',
+    cols: [
+      {h:'Артикул', k:'offer_id'},
+      {h:'Название', k:'name'},
+      {h:'Кол-во', k:'qty_sold'},
+      {h:'Цена Ozon ₽', k:'price_ozon'},
+      {h:'Цена конкурента ₽', k:'competitor_price'},
+      {h:'Конкурент / источник', k:'competitor_display'},
+      {h:'Выручка ₽', k:'gross_product'},
+      {h:'Затраты Ozon ₽', k:'total_fees'},
+      {h:'% забора', k:'ozon_take_pct'},
+      {h:'Выплата ₽', k:'payout'},
+      {h:'Себест. ₽', k:'cost_rub'},
+      {h:'План P ₽/шт', k:'ozon_fee_plan'},
+      {h:'Затраты озон на шт', k:'ozon_fee_actual_unit'},
+      {h:'Δ план/факт', k:'ozon_fee_diff'},
+      {h:'Прибыль ₽/шт', k:'profit_unit'},
+      {h:'Рекомендованная цена', k:'price_rec_for_margin_k'},
+      {h:'Рекомендация', k:'_action'}
+    ]
+  },
+  rec: {
+    tableId: 'recTable',
+    sheet: 'Цены и конкуренты',
+    file: 'pugovitsnet_prices',
+    cols: [
+      {h:'Артикул', k:'offer_id'},
+      {h:'Название', k:'name'},
+      {h:'Цена Ozon', k:'current_price_ozon'},
+      {h:'Ср. цена продажи', k:'avg_sale_price'},
+      {h:'Себест.', k:'cost_rub'},
+      {h:'Цена конкурента', k:'competitor_price'},
+      {h:'Конкурент / источник', k:'competitor_display'},
+      {h:'% забора', k:'ozon_take_pct'},
+      {h:'Выплата/шт', k:'payout_per_unit'},
+      {h:'Прибыль/шт', k:'profit_unit'},
+      {h:'Маржа %', k:'margin_on_payout_pct'},
+      {h:'Действие', k:'action'},
+      {h:'Цена к применению', k:'suggested_price'},
+      {h:'Причина', k:'reason'}
+    ]
+  },
+  cost: {
+    tableId: 'costTable',
+    sheet: 'Себестоимость',
+    file: 'pugovitsnet_costs',
+    cols: [
+      {h:'Артикул', k:'offer_id'},
+      {h:'Название', k:'name'},
+      {h:'Себест. J, ₽', k:'cost_rub'},
+      {h:'План P, ₽', k:'ozon_fee_plan'},
+      {h:'Факт, ₽/шт', k:'ozon_fee_actual_unit'},
+      {h:'Δ P−факт', k:'ozon_fee_diff'},
+      {h:'Цена', k:'price_ozon'},
+      {h:'Выплата/шт', k:'_payout_unit'},
+      {h:'Прибыль/шт', k:'profit_unit'},
+      {h:'Маржа %', k:'margin_on_payout_pct'},
+      {h:'Цена в табл.', k:'ozon_final_price'}
+    ]
+  },
+  fee: {
+    tableId: null,
+    sheet: 'Затраты Ozon',
+    file: 'pugovitsnet_fees',
+    cols: [
+      {h:'Статья', k:'article'},
+      {h:'Сумма ₽', k:'amount'},
+      {h:'% от выручки', k:'pct'}
+    ]
+  }
+};
+
+function xlsEscape(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&apos;');
+}
+
+function xlsCell(val){
+  if(val==null || val==='') return '<Cell><Data ss:Type="String"></Data></Cell>';
+  if(typeof val === 'number' && isFinite(val)){
+    return '<Cell><Data ss:Type="Number">'+val+'</Data></Cell>';
+  }
+  const n = Number(val);
+  if(val!=='' && typeof val !== 'boolean' && isFinite(n) && /^-?\d+(\.\d+)?$/.test(String(val).trim())){
+    return '<Cell><Data ss:Type="Number">'+n+'</Data></Cell>';
+  }
+  return '<Cell><Data ss:Type="String">'+xlsEscape(val)+'</Data></Cell>';
+}
+
+function visibleColIndexes(tableId, nCols){
+  const table = document.getElementById(tableId);
+  if(!table) return Array.from({length:nCols}, (_,i)=>i);
+  const ths = [...table.querySelectorAll('thead th')];
+  const idx = [];
+  for(let i=0;i<nCols;i++){
+    const th = ths[i];
+    if(!th || !th.classList.contains('col-hidden')) idx.push(i);
+  }
+  return idx.length ? idx : Array.from({length:nCols}, (_,i)=>i);
+}
+
+function exportExcel(which){
+  const def = XLS_DEFS[which];
+  if(!def){ showErr('Unknown export '+which); return; }
+  let rows = (EXPORT_STATE[which]||[]).slice();
+  if(which==='fee' && !rows.length){
+    renderFeeTable();
+    rows = (EXPORT_STATE.fee||[]).slice();
+  }
+  if(!rows.length){ alert('Нет строк для выгрузки'); return; }
+
+  const cols = def.cols;
+  const keep = def.tableId ? visibleColIndexes(def.tableId, cols.length) : cols.map((_,i)=>i);
+  const headers = keep.map(i => cols[i].h);
+  const fields = keep.map(i => cols[i].k);
+
+  function cellVal(r, key){
+    if(key==='_action'){
+      const rec = findRec(r.offer_id) || {};
+      return rec.action || (r.price_recommendation && r.price_recommendation.action) || '';
+    }
+    if(key==='_payout_unit'){
+      const q = Math.max(r.qty_sold||1, 1);
+      return (r.payout!=null) ? Math.round((r.payout/q)*100)/100 : '';
+    }
+    if(key==='competitor_display'){
+      return r.competitor_display || r.competitor_source || r.competitor_seller || '';
+    }
+    if(key==='competitor_price') return r.competitor_price;
+    if(key==='current_price_ozon') return r.current_price_ozon != null ? r.current_price_ozon : r.price_ozon;
+    return r[key];
+  }
+
+  const rowsXml = ['<Row>' + headers.map(h => '<Cell ss:StyleID="hdr"><Data ss:Type="String">'+xlsEscape(h)+'</Data></Cell>').join('') + '</Row>'];
+  rows.forEach(function(r){
+    rowsXml.push('<Row>' + fields.map(k => xlsCell(cellVal(r, k))).join('') + '</Row>');
+  });
+
+  const xml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<?mso-application progid="Excel.Sheet"?>\n' +
+    '<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">' +
+    '<Styles><Style ss:ID="hdr"><Font ss:Bold="1"/><Interior ss:Color="#D9E2F3" ss:Pattern="Solid"/></Style></Styles>' +
+    '<Worksheet ss:Name="'+xlsEscape(def.sheet)+'">' +
+    '<Table>' + rowsXml.join('') + '</Table>' +
+    '<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel"><FreezePanes/>' +
+    '<FrozenNoSplit/><SplitHorizontal>1</SplitHorizontal><TopRowBottomPane>1</TopRowBottomPane>' +
+    '</WorksheetOptions></Worksheet></Workbook>';
+
+  const date = (DATA.period_to || new Date().toISOString().slice(0,10) || '').replace(/[^0-9]/g,'') || new Date().toISOString().slice(0,10).replace(/-/g,'');
+  const fname = def.file + '_' + date + '.xls';
+  const blob = new Blob(['\ufeff', xml], {type:'application/vnd.ms-excel;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = fname;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function(){
+    URL.revokeObjectURL(a.href);
+    a.remove();
+  }, 1500);
+}
+
+function initExcelExport(){
+  document.querySelectorAll('.btn-xls').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      try{ exportExcel(btn.getAttribute('data-xls')); }
+      catch(err){ showErr('export: '+err.message); }
+    });
+  });
+}
 
 function showErr(msg){
   const el = document.getElementById('jsError');
@@ -809,6 +993,7 @@ function renderSkus(){
     return (b.gross_product||0)-(a.gross_product||0);
   });
 
+  EXPORT_STATE.sku = rows;
   const tb = document.querySelector('#skuTable tbody');
   if(!tb) return;
   const show = rows.slice(0,200);
@@ -857,6 +1042,7 @@ function renderRecs(){
   if(mg==='neg') rows = rows.filter(r => r.profit_unit!=null && r.profit_unit<=0);
   else if(mg==='low') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct<20 && r.margin_on_payout_pct>=0);
   else if(mg==='ok') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct>=20);
+  EXPORT_STATE.rec = rows;
   const tb = document.querySelector('#recTable tbody');
   if(!tb) return;
   const show = rows.slice(0,150);
@@ -895,6 +1081,7 @@ function renderCosts(){
   else if(mg==='low') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct<20 && r.margin_on_payout_pct>=0);
   else if(mg==='ok') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct>=20);
   rows.sort((a,b)=>(b.qty_sold||0)-(a.qty_sold||0));
+  EXPORT_STATE.cost = rows;
   const tb = document.querySelector('#costTable tbody');
   if(!tb) return;
   const show = rows.slice(0,200);
@@ -937,6 +1124,11 @@ function renderFeeTable(){
     first_reviews:'Сбор отзывов', other_fees:'Прочее'
   };
   const entries = Object.entries(DATA.fees||{}).sort((a,b)=>b[1]-a[1]);
+  EXPORT_STATE.fee = entries.map(function(e){
+    const k=e[0], v=e[1];
+    const pct = (DATA.feePct||{})[k]||0;
+    return {article: feeLabels[k]||k, amount: v, pct: pct};
+  });
   ft.innerHTML = entries.map(function(e){
     const k=e[0], v=e[1];
     const pct = (DATA.feePct||{})[k]||0;
@@ -1170,6 +1362,7 @@ document.addEventListener('DOMContentLoaded', function(){
   try{
     initTabs();
     initFilters();
+    initExcelExport();
     renderSkus();
     renderRecs();
     renderCosts();
