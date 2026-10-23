@@ -77,3 +77,6 @@ final sections [] errors ['report_detail', 'report_detail2', 'prices']
 14:14:22 START long fetcher
 14:14:23 sales 429 retry=6891 len=279
 14:14:23 wait 3600s for sales
+14:24:08 START long fetcher
+14:24:09 sales 429 retry=6305 len=279
+14:24:09 wait 6308s for sales

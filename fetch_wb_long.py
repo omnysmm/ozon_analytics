@@ -82,7 +82,8 @@ if __name__ == "__main__":
             status = fetch_once(*job)
             if status.startswith("limit:"):
                 wait = float(status.split(":", 1)[1])
-                wait = min(wait + 2, 3600)
+                # honor the full WB retry window (can be 1–2 hours)
+                wait = min(wait + 3, 7200)
                 log("wait " + str(int(wait)) + "s for " + job[0])
                 time.sleep(wait)
             elif status == "ok":

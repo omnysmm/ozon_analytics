@@ -143,10 +143,11 @@ for nm, c in cards.items():
         for_pay = round(revenue * (1 - take_pct_model / 100), 2)
     payout_unit = round(for_pay / qty, 2) if qty else None
 
-    cost_rub = num(g.get("cost_rub"))
-    wb_fee_plan = num(g.get("wb_fee"))
-    wb_final_price = num(g.get("wb_final_price"))
-    required_markup = num(g.get("required_markup"))
+    cost_rub = num(g.get("cost_rub"))  # Google Sheet column J
+    # WB planned costs MUST come from Google Sheet column L («Комиссия+логистика ВБ»)
+    wb_fee_plan = num(g.get("wb_fee") or g.get("wb_fee_L") or g.get("L"))
+    wb_final_price = num(g.get("wb_final_price"))  # column N
+    required_markup = num(g.get("required_markup"))  # column K
     sheet_name = g.get("name") or None
 
     profit_unit = None
@@ -186,6 +187,7 @@ for nm, c in cards.items():
         "wb_take_pct": round((revenue - for_pay) / revenue * 100, 2) if revenue and for_pay else take_pct_model,
         "cost_rub": cost_rub,
         "wb_fee_plan": wb_fee_plan,
+        "wb_fee_source": "gsheet_col_L",
         "wb_final_price": wb_final_price,
         "wb_plan_revenue_unit": plan_revenue,
         "wb_plan_payout_unit": plan_payout_total,

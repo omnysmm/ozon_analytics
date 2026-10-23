@@ -465,7 +465,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
 <section class="section" id="sec-wbsku">
   <div class="card">
     <h3>Аналитика Wildberries (WB) — карточки, продажи, экономика</h3>
-    <div class="note">Данные WB: content-api (карточки) + statistics-api (продажи/заказы, только чтение). Себестоимость — столбец J Google Sheet; план WB-затрат — <code>wb_fee</code>. Все подписи с префиксом <b>WB</b>.</div>
+    <div class="note">Данные WB: content-api (карточки) + statistics-api (продажи/заказы, только чтение). Себестоимость — столбец <b>J</b>; плановые затраты WB — столбец <b>L</b> («Комиссия+логистика ВБ»). Все подписи с префиксом <b>WB</b>.</div>
     <div class="grid kpi" style="margin:12px 0">
       <div class="card"><div class="label">WB карточек</div><div class="value" id="wbCards">__WB_N_CARDS__</div><div class="delta">уникальных nmID</div></div>
       <div class="card"><div class="label">WB продано</div><div class="value good" id="wbQty">__WB_QTY__</div><div class="delta">шт за период</div></div>
@@ -500,7 +500,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
           <th class="num">WB забор %</th>
           <th class="num">WB выплата/шт</th>
           <th class="num">Себест. J ₽</th>
-          <th class="num">WB план P ₽</th>
+          <th class="num">WB план L ₽</th>
           <th class="num">WB прибыль/шт</th>
           <th class="num">WB маржа %</th>
           <th>WB источник</th>
@@ -538,7 +538,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         </table>
       </div>
       <div class="mini" style="margin-top:10px">
-        <b>Ozon</b> — факт из «Отчёта по начислениям». <b>WB</b> — statistics-api (продажи) + план <code>wb_fee</code> из Google Sheet.
+        <b>Ozon</b> — факт из «Отчёта по начислениям». <b>WB</b> — statistics-api (продажи) + план затрат из столбца <b>L</b> Google Sheet («Комиссия+логистика ВБ»).
         Показатели с префиксом <b>WB</b> относятся только к Wildberries.
       </div>
     </div>
@@ -737,7 +737,7 @@ const XLS_DEFS = {
       {h:'WB забор %', k:'wb_take_pct'},
       {h:'WB выплата/шт', k:'wb_payout_unit'},
       {h:'Себест. J ₽', k:'cost_rub'},
-      {h:'WB план P ₽', k:'wb_fee_plan'},
+      {h:'WB план L ₽', k:'wb_fee_plan'},
       {h:'WB прибыль/шт', k:'profit_unit'},
       {h:'WB маржа %', k:'margin_on_payout_pct'},
       {h:'WB источник', k:'sales_source'}

@@ -38,7 +38,8 @@ for r in data_rows:
         "offer": offer,
         "cost_rub": to_num(r[9]) if len(r) > 9 else None,          # J
         "required_markup": to_num(r[10]) if len(r) > 10 else None,
-        "wb_fee": to_num(r[11]) if len(r) > 11 else None,
+        "wb_fee": to_num(r[11]) if len(r) > 11 else None,          # L = Комиссия+логистика ВБ
+        "wb_fee_L": to_num(r[11]) if len(r) > 11 else None,        # alias: planned WB costs from col L
         "ozon_fee_plan": to_num(r[15]) if len(r) > 15 else None,   # P
         "ozon_promo_pct": to_num(r[16]) if len(r) > 16 else None,
         "ozon_final_price": to_num(r[17]) if len(r) > 17 else None,
