@@ -1,17 +1,79 @@
-CALL sales 2026-10-23T13:27:42.439522
-sales 429 retry 2361 len 279
+CALL sales 2026-10-23T13:43:23.263483
+sales 429 retry 1420 len 279
   sleep 90
-CALL orders 2026-10-23T13:29:16.191232
-orders 429 retry 64 len 279
-  sleep 64.0
-CALL report_detail 2026-10-23T13:30:23.944775
+CALL orders 2026-10-23T13:44:57.021353
+orders 429 retry 10023 len 279
+  sleep 90
+CALL report_detail 2026-10-23T13:46:30.763830
 report_detail 404 retry None len 170
-CALL report_detail2 2026-10-23T13:30:26.186800
+CALL report_detail2 2026-10-23T13:46:33.125698
 report_detail2 404 retry None len 170
-CALL prices 2026-10-23T13:30:28.440861
-prices 429 retry 666 len 287
+CALL prices 2026-10-23T13:46:35.412953
+prices 429 retry 635 len 287
   sleep 90
 sweep done, rest 65s
-CALL sales 2026-10-23T13:33:07.188590
-sales 429 retry 2036 len 279
+CALL sales 2026-10-23T13:49:14.165074
+sales 429 retry 1069 len 279
   sleep 90
+CALL orders 2026-10-23T13:50:47.905158
+orders 429 retry 9673 len 279
+  sleep 90
+CALL report_detail 2026-10-23T13:52:21.648616
+report_detail 404 retry None len 170
+CALL report_detail2 2026-10-23T13:52:23.877145
+report_detail2 404 retry None len 170
+CALL prices 2026-10-23T13:52:26.116677
+prices 429 retry 284 len 287
+  sleep 90
+sweep done, rest 65s
+CALL sales 2026-10-23T13:55:04.848468
+sales 429 retry 718 len 279
+  sleep 90
+CALL orders 2026-10-23T13:56:38.606284
+orders 429 retry 9322 len 279
+  sleep 90
+CALL report_detail 2026-10-23T13:58:12.365179
+report_detail 404 retry None len 170
+CALL report_detail2 2026-10-23T13:58:14.613821
+report_detail2 404 retry None len 170
+CALL prices 2026-10-23T13:58:16.860838
+prices 400 retry None len 67
+sweep done, rest 65s
+CALL sales 2026-10-23T13:59:24.178731
+sales 429 retry 459 len 279
+  sleep 90
+CALL orders 2026-10-23T14:00:57.897758
+orders 429 retry 9063 len 279
+  sleep 90
+CALL report_detail 2026-10-23T14:02:31.652799
+report_detail 404 retry None len 170
+CALL report_detail2 2026-10-23T14:02:33.912147
+report_detail2 404 retry None len 170
+CALL prices 2026-10-23T14:02:36.157269
+prices 429 retry 641 len 287
+  sleep 90
+sweep done, rest 65s
+CALL sales 2026-10-23T14:05:14.893386
+sales 429 retry 108 len 279
+  sleep 90
+CALL orders 2026-10-23T14:06:48.660558
+orders 429 retry 8712 len 279
+  sleep 90
+CALL report_detail 2026-10-23T14:08:22.373985
+report_detail 404 retry None len 170
+CALL report_detail2 2026-10-23T14:08:24.652454
+report_detail2 404 retry None len 170
+CALL prices 2026-10-23T14:08:26.889208
+prices 429 retry 291 len 287
+  sleep 90
+sweep done, rest 65s
+CALL sales 2026-10-23T14:11:05.627669
+sales 429 retry 7087 len 279
+  sleep 90
+deadline reached
+sweep done, rest 65s
+final sections [] errors ['report_detail', 'report_detail2', 'prices']
+']
+14:14:22 START long fetcher
+14:14:23 sales 429 retry=6891 len=279
+14:14:23 wait 3600s for sales

@@ -1765,7 +1765,10 @@ function buildCharts(){
   };
 
   TAB_BUILDERS.wb = function(){
-    const wbTake = (DATA.wbTotals && DATA.wbTotals.wb_take_pct != null) ? DATA.wbTotals.wb_take_pct : DATA.wbTake;
+    const planMode = DATA.wbTotals && DATA.wbTotals.data_mode === 'plan';
+    const wbTake = planMode
+      ? (DATA.wbTotals.wb_plan_take_pct != null ? DATA.wbTotals.wb_plan_take_pct : DATA.wbTake)
+      : ((DATA.wbTotals && DATA.wbTotals.wb_take_pct != null) ? DATA.wbTotals.wb_take_pct : DATA.wbTake);
     safeChart('chartWbCompare', {
       type:'radar',
       data:{
@@ -1945,8 +1948,15 @@ repl = {
     "__OTHER_PCT__": str(round(100 - comm_pct - log_pct - fee_pct.get("premium", 0) - fee_pct.get("stars", 0) - fee_pct.get("last_mile", 0) - fee_pct.get("acquiring", 0), 2)),
     "__AVG_TAKE__": str(round(sum(s.get("ozon_take_pct") or 0 for s in skus_slim) / max(len(skus_slim), 1), 2)),
     "__AVG_COST__": str(avg_cost),
-    "__WB_TAKE__": str(wb_totals.get("wb_take_pct", comparison.get("wb", {}).get("assumed_wb_take_pct", 20))),
-    "__DELTA_TAKE__": str(round(take_pct - float(wb_totals.get("wb_take_pct", 20)), 2)),
+    "__WB_TAKE__": str(
+        (wb_totals.get("wb_plan_take_pct") if wb_totals.get("data_mode") == "plan" else None)
+        or wb_totals.get("wb_take_pct")
+        or comparison.get("wb", {}).get("assumed_wb_take_pct", 20)
+    ),
+    "__DELTA_TAKE__": str(round(take_pct - float(
+        (wb_totals.get("wb_plan_take_pct") if wb_totals.get("data_mode") == "plan" else None)
+        or wb_totals.get("wb_take_pct") or 20
+    ), 2)),
     "__WB_N_CARDS__": str(wb_totals.get("n_cards", 0)),
     "__WB_QTY__": str(wb_totals.get("qty_sold", 0)),
     "__WB_REV__": f"{wb_totals.get('wb_revenue', 0):,.0f}".replace(",", " "),
@@ -1972,7 +1982,11 @@ repl = {
     "__TOTALS__": json.dumps(totals, ensure_ascii=False),
     "__PFACT__": json.dumps(pvf, ensure_ascii=False),
     "__TAKE_PCT_NUM__": str(take_pct),
-    "__WB_TAKE_NUM__": str(wb_totals.get("wb_take_pct", comparison.get("wb", {}).get("assumed_wb_take_pct", 20))),
+    "__WB_TAKE_NUM__": str(
+        (wb_totals.get("wb_plan_take_pct") if wb_totals.get("data_mode") == "plan" else None)
+        or wb_totals.get("wb_take_pct")
+        or comparison.get("wb", {}).get("assumed_wb_take_pct", 20)
+    ),
     "__COMM_PCT_NUM__": str(comm_pct),
     "__LOG_PCT_NUM__": str(log_pct),
     "__SVC_PCT_NUM__": str(round(fee_pct.get("premium", 0) + fee_pct.get("stars", 0) + fee_pct.get("review_mgmt", 0) + fee_pct.get("dropoff", 0), 2)),

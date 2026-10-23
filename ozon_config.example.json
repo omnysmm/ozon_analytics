@@ -2,5 +2,7 @@
   "ozon_client_id": "YOUR_CLIENT_ID",
   "ozon_api_key_content": "YOUR_CONTENT_PRICES_KEY",
   "ozon_api_key_analytics": "YOUR_ANALYTICS_KEY",
-  "gsheet_url": "https://docs.google.com/spreadsheets/d/REPLACE_ME/edit?gid=1988518778"
+  "gsheet_url": "https://docs.google.com/spreadsheets/d/REPLACE_ME/edit?gid=1988518778",
+  "wb_api_token": "YOUR_WB_STATISTICS_TOKEN"
 }
+
