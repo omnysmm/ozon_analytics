@@ -350,6 +350,12 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="СНИЗИТЬ">СНИЗИТЬ</option>
         <option value="УДЕРЖАТЬ">УДЕРЖАТЬ</option>
       </select>
+      <select id="rMargin">
+        <option value="">Любая маржа</option>
+        <option value="neg">Убыточные (маржа ≤ 0)</option>
+        <option value="low">Маржа &lt; 20%</option>
+        <option value="ok">Маржа ≥ 20%</option>
+      </select>
       <div class="col-picker" id="colPickerRec">
         <button type="button" class="col-picker-btn" data-toggle="colMenuRec">Столбцы ▾</button>
         <div class="col-menu" id="colMenuRec"></div>
@@ -883,9 +889,13 @@ function renderSkus(){
 function renderRecs(){
   const q = (document.getElementById('rSearch').value||'').toLowerCase().trim();
   const act = document.getElementById('rAction').value;
+  const mg = (document.getElementById('rMargin')||{}).value || '';
   let rows = (DATA.recs||[]).slice();
   if(q) rows = rows.filter(r => ((r.offer_id||'')+' '+(r.name||'')).toLowerCase().indexOf(q)>=0);
   if(act) rows = rows.filter(r => String(r.action||'')===act);
+  if(mg==='neg') rows = rows.filter(r => r.profit_unit!=null && r.profit_unit<=0);
+  else if(mg==='low') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct<20 && r.margin_on_payout_pct>=0);
+  else if(mg==='ok') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct>=20);
   const tb = document.querySelector('#recTable tbody');
   if(!tb) return;
   const show = rows.slice(0,150);
@@ -1173,6 +1183,7 @@ function initFilters(){
   });
   bind('rSearch','input', renderRecs);
   bind('rAction','change', renderRecs);
+  bind('rMargin','change', renderRecs);
   bind('cSearch','input', renderCosts);
   bind('cMargin','change', renderCosts);
   bind('btnPeriod','click', filterDaysByPeriod);
