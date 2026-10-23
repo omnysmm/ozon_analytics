@@ -259,7 +259,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="profit">По прибыли/шт</option>
         <option value="diff">По отклонению план/факт</option>
       </select>
-      <button type="button" id="fReset">Сброс</button>
+      <button type="button" id="fReset">Сброс фильтров</button>
       <button type="button" class="ghost btn-xls" data-xls="sku">Excel</button>
       <div class="col-picker" id="colPickerSku">
         <button type="button" class="col-picker-btn" data-toggle="colMenuSku">Столбцы ▾</button>
@@ -359,6 +359,14 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="low">Маржа &lt; 20%</option>
         <option value="ok">Маржа ≥ 20%</option>
       </select>
+      <select id="rMarket">
+        <option value="">Любое положение vs рынок</option>
+        <option value="cheap">Дешевле рынка</option>
+        <option value="dear">Дороже рынка</option>
+        <option value="not_dear">Не дороже рынка</option>
+        <option value="no_index">Без индекса</option>
+      </select>
+      <button type="button" id="rReset">Сброс фильтров</button>
       <button type="button" class="ghost btn-xls" data-xls="rec">Excel</button>
       <div class="col-picker" id="colPickerRec">
         <button type="button" class="col-picker-btn" data-toggle="colMenuRec">Столбцы ▾</button>
@@ -461,6 +469,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
         <option value="low">Маржа &lt; 20%</option>
         <option value="ok">Маржа ≥ 20%</option>
       </select>
+      <button type="button" id="cReset">Сброс фильтров</button>
       <button type="button" class="ghost btn-xls" data-xls="cost">Excel</button>
       <div class="col-picker" id="colPickerCost">
         <button type="button" class="col-picker-btn" data-toggle="colMenuCost">Столбцы ▾</button>
@@ -1075,12 +1084,27 @@ function renderRecs(){
   const q = (document.getElementById('rSearch').value||'').toLowerCase().trim();
   const act = document.getElementById('rAction').value;
   const mg = (document.getElementById('rMargin')||{}).value || '';
+  const mk = (document.getElementById('rMarket')||{}).value || '';
   let rows = (DATA.recs||[]).slice();
   if(q) rows = rows.filter(r => ((r.offer_id||'')+' '+(r.name||'')).toLowerCase().indexOf(q)>=0);
   if(act) rows = rows.filter(r => String(r.action||'')===act);
   if(mg==='neg') rows = rows.filter(r => r.profit_unit!=null && r.profit_unit<=0);
   else if(mg==='low') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct<20 && r.margin_on_payout_pct>=0);
   else if(mg==='ok') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct>=20);
+  if(mk){
+    rows = rows.filter(function(r){
+      const price = r.current_price_ozon != null ? r.current_price_ozon : r.price_ozon;
+      const market = r.competitor_price;
+      const hasMarket = market!=null && market!=='' && !isNaN(market) && market>0;
+      const hasPrice = price!=null && price!=='' && !isNaN(price);
+      if(mk==='no_index') return !hasMarket;
+      if(!hasMarket || !hasPrice) return false;
+      if(mk==='cheap') return price < market;
+      if(mk==='dear') return price > market;
+      if(mk==='not_dear') return price <= market;
+      return true;
+    });
+  }
   EXPORT_STATE.rec = rows;
   const tb = document.querySelector('#recTable tbody');
   if(!tb) return;
@@ -1376,8 +1400,27 @@ function initFilters(){
   bind('rSearch','input', renderRecs);
   bind('rAction','change', renderRecs);
   bind('rMargin','change', renderRecs);
+  bind('rMarket','change', renderRecs);
+  bind('rReset','click', function(){
+    const rSearch = document.getElementById('rSearch');
+    const rAction = document.getElementById('rAction');
+    const rMargin = document.getElementById('rMargin');
+    const rMarket = document.getElementById('rMarket');
+    if(rSearch) rSearch.value='';
+    if(rAction) rAction.value='';
+    if(rMargin) rMargin.value='';
+    if(rMarket) rMarket.value='';
+    renderRecs();
+  });
   bind('cSearch','input', renderCosts);
   bind('cMargin','change', renderCosts);
+  bind('cReset','click', function(){
+    const cSearch = document.getElementById('cSearch');
+    const cMargin = document.getElementById('cMargin');
+    if(cSearch) cSearch.value='';
+    if(cMargin) cMargin.value='';
+    renderCosts();
+  });
   bind('btnPeriod','click', filterDaysByPeriod);
   bind('btnPeriodReset','click', function(){
     document.getElementById('dFrom').value='__DATE_FROM__';

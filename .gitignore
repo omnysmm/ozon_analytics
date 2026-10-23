@@ -29,3 +29,5 @@ Thumbs.db
 
 # Local node
 node_modules/
+
+_xls_test/
