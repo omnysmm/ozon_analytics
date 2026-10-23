@@ -99,7 +99,12 @@ for row in econ:
 # rebuild recommendations with price_ozon as current
 recs = []
 for r in econ:
-    if (r.get("qty_sold") or 0) < 5:
+    qty = r.get("qty_sold") or 0
+    profit = r.get("profit_unit")
+    is_loss = profit is not None and profit <= 0
+    # qty>=5 is enough for price recs; unprofitable SKUs always included
+    # so «Убыточные» filter matches the costs tab
+    if qty < 5 and not is_loss:
         continue
     price = r.get("price_ozon") or r.get("avg_sale_price") or 0
     payout_u = (r.get("payout") or 0) / max(r.get("qty_sold") or 1, 1)

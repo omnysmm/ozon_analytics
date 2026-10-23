@@ -8,7 +8,47 @@ chart_js = (OUT / "chart.umd.min.js").read_text(encoding="utf-8")
 
 days = web["days"]
 skus = web["sku_economics"][:250]
-recs = web["price_recommendations"][:200]
+recs = list(web["price_recommendations"][:200])
+
+
+def _rec_from_sku(s):
+    """Map sku economics row → rec-table shape (for filter parity)."""
+    qty = s.get("qty_sold") or 1
+    payout = s.get("payout")
+    payout_u = round(payout / max(qty, 1), 2) if payout is not None else None
+    return {
+        "offer_id": s.get("offer_id"),
+        "name": s.get("name"),
+        "qty_sold": s.get("qty_sold"),
+        "current_price_ozon": s.get("price_ozon"),
+        "avg_sale_price": s.get("avg_sale_price"),
+        "cost_rub": s.get("cost_rub"),
+        "competitor_price": s.get("competitor_price"),
+        "competitor_seller": s.get("competitor_seller"),
+        "competitor_source": s.get("competitor_source"),
+        "competitor_display": s.get("competitor_display"),
+        "ozon_take_pct": s.get("ozon_take_pct"),
+        "payout_per_unit": payout_u,
+        "profit_unit": s.get("profit_unit"),
+        "margin_on_payout_pct": s.get("margin_on_payout_pct"),
+        "ozon_fee_plan": s.get("ozon_fee_plan"),
+        "ozon_fee_actual_unit": s.get("ozon_fee_actual_unit"),
+        "ozon_fee_diff": s.get("ozon_fee_diff"),
+        "action": (s.get("price_recommendation") or {}).get("action", "ПРОВЕРИТЬ"),
+        "suggested_price": s.get("price_rec_for_margin_k"),
+        "reason": "включён как убыточный (для совпадения фильтров)",
+    }
+
+
+# Keep «Убыточные» filter identical on Prices and Costs tabs:
+# every unprofitable SKU visible in skus[] must also exist in recs[].
+_rec_ids = {r.get("offer_id") for r in recs}
+for _s in skus:
+    _profit = _s.get("profit_unit")
+    if _profit is not None and _profit <= 0 and _s.get("offer_id") not in _rec_ids:
+        recs.append(_rec_from_sku(_s))
+        _rec_ids.add(_s.get("offer_id"))
+
 wb_costs = web["wb_costs"]
 fee_totals = web["fee_totals"]
 fee_pct = web["fee_pct"]
