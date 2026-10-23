@@ -10,6 +10,13 @@ days = web["days"]
 skus = web["sku_economics"][:250]
 recs = list(web["price_recommendations"][:200])
 
+# Wildberries economics (read-only API + gsheet plan)
+wb_econ_path = OUT / "wb_economics.json"
+wb_econ = json.load(open(wb_econ_path, encoding="utf-8")) if wb_econ_path.exists() else {"skus": [], "totals": {}}
+wb_skus = (wb_econ.get("skus") or [])[:200]
+wb_totals = wb_econ.get("totals") or {}
+wb_notes = wb_econ.get("notes") or {}
+
 
 def _rec_from_sku(s):
     """Map sku economics row → rec-table shape (for filter parity)."""
@@ -227,7 +234,8 @@ tr:hover td{background:rgba(91,140,255,.06)}
   <button type="button" data-tab="sku">По артикулам</button>
   <button type="button" data-tab="fees">Затраты Ozon</button>
   <button type="button" data-tab="prices">Цены и конкуренты</button>
-  <button type="button" data-tab="wb">Ozon vs Wildberries</button>
+  <button type="button" data-tab="wbsku">Аналитика WB</button>
+  <button type="button" data-tab="wb">Сравнение Ozon vs WB</button>
   <button type="button" data-tab="costs">Себестоимость и маржа</button>
 </div>
 
@@ -453,47 +461,122 @@ tr:hover td{background:rgba(91,140,255,.06)}
   </div>
 </section>
 
-<!-- WB -->
+<!-- WB ANALYTICS -->
+<section class="section" id="sec-wbsku">
+  <div class="card">
+    <h3>Аналитика Wildberries (WB) — карточки, продажи, экономика</h3>
+    <div class="note">Данные WB: content-api (карточки) + statistics-api (продажи/заказы, только чтение). Себестоимость — столбец J Google Sheet; план WB-затрат — <code>wb_fee</code>. Все подписи с префиксом <b>WB</b>.</div>
+    <div class="grid kpi" style="margin:12px 0">
+      <div class="card"><div class="label">WB карточек</div><div class="value" id="wbCards">__WB_N_CARDS__</div><div class="delta">уникальных nmID</div></div>
+      <div class="card"><div class="label">WB продано</div><div class="value good" id="wbQty">__WB_QTY__</div><div class="delta">шт за период</div></div>
+      <div class="card"><div class="label">WB выручка</div><div class="value accent" id="wbRev">__WB_REV__ ₽</div><div class="delta">salePrice / план</div></div>
+      <div class="card"><div class="label">WB Take %</div><div class="value warn" id="wbTake">__WB_TAKE__%</div><div class="delta">забор площадки</div></div>
+    </div>
+    <div class="filters">
+      <input id="wbSearch" type="search" placeholder="Поиск WB (артикул / название)...">
+      <select id="wbMargin">
+        <option value="">Любая маржа WB</option>
+        <option value="neg">WB убыточные (маржа ≤ 0)</option>
+        <option value="low">WB маржа &lt; 20%</option>
+        <option value="ok">WB маржа ≥ 20%</option>
+      </select>
+      <button type="button" id="wbReset">Сброс фильтров</button>
+      <button type="button" class="ghost btn-xls" data-xls="wb">Excel</button>
+      <div class="col-picker" id="colPickerWb">
+        <button type="button" class="col-picker-btn" data-toggle="colMenuWb">Столбцы ▾</button>
+        <div class="col-menu" id="colMenuWb"></div>
+      </div>
+    </div>
+    <div class="tbl-wrap">
+      <table id="wbTable">
+        <thead><tr>
+          <th>WB артикул</th>
+          <th>WB название</th>
+          <th>WB предмет</th>
+          <th class="num">WB продано</th>
+          <th class="num">WB заказано</th>
+          <th class="num">WB цена ₽</th>
+          <th class="num">WB выручка ₽</th>
+          <th class="num">WB забор %</th>
+          <th class="num">WB выплата/шт</th>
+          <th class="num">Себест. J ₽</th>
+          <th class="num">WB план P ₽</th>
+          <th class="num">WB прибыль/шт</th>
+          <th class="num">WB маржа %</th>
+          <th>WB источник</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="mini" style="margin-top:8px" id="wbCount">—</div>
+  </div>
+</section>
+
+<!-- COMPARE Ozon vs WB -->
 <section class="section" id="sec-wb">
   <div class="grid row3">
     <div class="card"><div class="label">Ozon — забирает</div><div class="value bad">__TAKE_PCT__%</div><div class="delta">факт по начислениям</div></div>
-    <div class="card"><div class="label">WB — забирает (план)</div><div class="value good">__WB_TAKE__%</div><div class="delta">комиссия + логистика</div></div>
-    <div class="card"><div class="label">Разница</div><div class="value warn">__DELTA_TAKE__ п.п.</div><div class="delta">в пользу одной из площадок</div></div>
+    <div class="card"><div class="label">WB — забирает</div><div class="value good">__WB_TAKE__%</div><div class="delta">факт API / план</div></div>
+    <div class="card"><div class="label">Разница Take</div><div class="value warn">__DELTA_TAKE__ п.п.</div><div class="delta">Ozon − WB</div></div>
   </div>
   <div class="grid row2" style="margin-top:14px">
     <div class="card">
-      <h3>Затраты площадок, % от выручки</h3>
+      <h3>Сравнение Ozon vs WB — затраты, % от выручки</h3>
       <div class="chart-box tall"><canvas id="chartWbCompare"></canvas></div>
     </div>
     <div class="card">
-      <h3>Продажи за период</h3>
-      <div class="tbl-wrap" style="max-height:360px">
-        <table>
-          <thead><tr><th>Площадка</th><th class="num">Выручка</th><th class="num">Затраты</th><th class="num">Выплата</th><th class="num">Take %</th></tr></thead>
-          <tbody>
-            <tr>
-              <td><span class="chip accent">Ozon</span></td>
-              <td class="num">__GROSS_FMT__ ₽</td>
-              <td class="num">__FEES_FMT__ ₽</td>
-              <td class="num">__PAYOUT_FMT__ ₽</td>
-              <td class="num bad">__TAKE_PCT__%</td>
-            </tr>
-            <tr>
-              <td><span class="chip good">Wildberries</span></td>
-              <td class="num">см. таблицу ВБ</td>
-              <td class="num">план ~20%</td>
-              <td class="num">см. таблицу ВБ</td>
-              <td class="num good">~20%</td>
-            </tr>
-          </tbody>
+      <h3>Ozon vs WB — ключевые показатели</h3>
+      <div class="tbl-wrap" style="max-height:420px">
+        <table id="cmpTable">
+          <thead><tr>
+            <th>Показатель</th>
+            <th class="num">Ozon</th>
+            <th class="num">WB</th>
+            <th class="num">Δ (Ozon − WB)</th>
+          </tr></thead>
+          <tbody id="cmpBody"></tbody>
         </table>
       </div>
       <div class="mini" style="margin-top:10px">
-        Для факта WB нужны отчёты «Реализация» / «Удержания» из ЛК WB или API
-        <b>statistics-api.wildberries.ru</b> (роли: Статистика, Продажи).
-        Плановая модель — из Google Sheets (колонки L–O) и файла «Цены фурнитура ВБ.xlsx».
+        <b>Ozon</b> — факт из «Отчёта по начислениям». <b>WB</b> — statistics-api (продажи) + план <code>wb_fee</code> из Google Sheet.
+        Показатели с префиксом <b>WB</b> относятся только к Wildberries.
       </div>
     </div>
+  </div>
+  <div class="card" style="margin-top:14px">
+    <h3>Сравнение по артикулам (совпадение vendor / offer)</h3>
+    <div class="filters">
+      <input id="cmpSearch" type="search" placeholder="Поиск по артикулу...">
+      <select id="cmpOnly">
+        <option value="">Все совпадения</option>
+        <option value="both">Есть на Ozon и WB</option>
+        <option value="ozon">Только Ozon</option>
+        <option value="wb">Только WB</option>
+      </select>
+      <button type="button" id="cmpReset">Сброс фильтров</button>
+      <button type="button" class="ghost btn-xls" data-xls="cmp">Excel</button>
+    </div>
+    <div class="tbl-wrap" style="max-height:480px">
+      <table id="cmpSkuTable">
+        <thead><tr>
+          <th>Артикул</th>
+          <th>Название</th>
+          <th class="num">Ozon цена</th>
+          <th class="num">WB цена</th>
+          <th class="num">Ozon продано</th>
+          <th class="num">WB продано</th>
+          <th class="num">Ozon выплата/шт</th>
+          <th class="num">WB выплата/шт</th>
+          <th class="num">Ozon прибыль/шт</th>
+          <th class="num">WB прибыль/шт</th>
+          <th class="num">Ozon Take %</th>
+          <th class="num">WB Take %</th>
+          <th>Площадки</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="mini" style="margin-top:8px" id="cmpCount">—</div>
   </div>
 </section>
 
@@ -556,7 +639,10 @@ const DATA = {
   commPct: __COMM_PCT_NUM__,
   logPct: __LOG_PCT_NUM__,
   svcPct: __SVC_PCT_NUM__,
-  miscPct: __MISC_PCT_NUM__
+  miscPct: __MISC_PCT_NUM__,
+  wb: __WB_ECON__,
+  wbTotals: __WB_TOTALS__,
+  ozonTotals: {gross: __GROSS_NUM__, fees: __FEES_NUM__, payout: __PAYOUT_NUM__, take: __TAKE_PCT_NUM__, qty: __QTY_NUM__}
 };
 
 /* full filtered rows for Excel export (not the on-screen 200-row cap) */
@@ -634,6 +720,47 @@ const XLS_DEFS = {
       {h:'Статья', k:'article'},
       {h:'Сумма ₽', k:'amount'},
       {h:'% от выручки', k:'pct'}
+    ]
+  },
+  wb: {
+    tableId: 'wbTable',
+    sheet: 'Аналитика WB',
+    file: 'pugovitsnet_wb',
+    cols: [
+      {h:'WB артикул', k:'offer_id'},
+      {h:'WB название', k:'name'},
+      {h:'WB предмет', k:'subject'},
+      {h:'WB продано', k:'qty_sold'},
+      {h:'WB заказано', k:'qty_ordered'},
+      {h:'WB цена ₽', k:'wb_avg_price'},
+      {h:'WB выручка ₽', k:'wb_revenue'},
+      {h:'WB забор %', k:'wb_take_pct'},
+      {h:'WB выплата/шт', k:'wb_payout_unit'},
+      {h:'Себест. J ₽', k:'cost_rub'},
+      {h:'WB план P ₽', k:'wb_fee_plan'},
+      {h:'WB прибыль/шт', k:'profit_unit'},
+      {h:'WB маржа %', k:'margin_on_payout_pct'},
+      {h:'WB источник', k:'sales_source'}
+    ]
+  },
+  cmp: {
+    tableId: 'cmpSkuTable',
+    sheet: 'Ozon vs WB',
+    file: 'pugovitsnet_ozon_vs_wb',
+    cols: [
+      {h:'Артикул', k:'offer_id'},
+      {h:'Название', k:'name'},
+      {h:'Ozon цена', k:'ozon_price'},
+      {h:'WB цена', k:'wb_price'},
+      {h:'Ozon продано', k:'ozon_qty'},
+      {h:'WB продано', k:'wb_qty'},
+      {h:'Ozon выплата/шт', k:'ozon_pay'},
+      {h:'WB выплата/шт', k:'wb_pay'},
+      {h:'Ozon прибыль/шт', k:'ozon_profit'},
+      {h:'WB прибыль/шт', k:'wb_profit'},
+      {h:'Ozon Take %', k:'ozon_take'},
+      {h:'WB Take %', k:'wb_take'},
+      {h:'Площадки', k:'places'}
     ]
   }
 };
@@ -872,6 +999,145 @@ function initExcelExport(){
       catch(err){ showErr('export: '+err.message); }
     });
   });
+}
+
+/* ---------- WB + COMPARISON ---------- */
+function renderWb(){
+  const q = ((document.getElementById('wbSearch')||{}).value||'').toLowerCase().trim();
+  const mg = ((document.getElementById('wbMargin')||{}).value)||'';
+  let rows = (DATA.wb||[]).slice();
+  if(q) rows = rows.filter(r => ((r.offer_id||'')+' '+(r.name||'')+' '+(r.subject||'')).toLowerCase().indexOf(q)>=0);
+  if(mg==='neg') rows = rows.filter(r => r.profit_unit!=null && r.profit_unit<=0);
+  else if(mg==='low') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct<20 && r.margin_on_payout_pct>=0);
+  else if(mg==='ok') rows = rows.filter(r => r.margin_on_payout_pct!=null && r.margin_on_payout_pct>=20);
+  EXPORT_STATE.wb = rows;
+  const tb = document.querySelector('#wbTable tbody');
+  if(!tb) return;
+  tb.innerHTML = rows.map(function(r){
+    const profit = r.profit_unit;
+    const pCls = (profit==null)?'':(profit<0?'bad':'good');
+    const mCls = (r.margin_on_payout_pct==null)?'':(r.margin_on_payout_pct<0?'bad':(r.margin_on_payout_pct<20?'warn':'good'));
+    return '<tr>'+
+      '<td><b>'+esc(r.offer_id)+'</b></td>'+
+      '<td class="clip-name" title="'+esc(r.name)+'">'+esc(r.name||'—')+'</td>'+
+      '<td class="mini">'+esc(r.subject||'—')+'</td>'+
+      '<td class="num">'+fmt0(r.qty_sold)+'</td>'+
+      '<td class="num">'+fmt0(r.qty_ordered)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_avg_price || r.wb_final_price)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_revenue)+'</td>'+
+      '<td class="num">'+fmt(r.wb_take_pct)+'%</td>'+
+      '<td class="num">'+fmt0(r.wb_payout_unit)+'</td>'+
+      '<td class="num">'+fmt0(r.cost_rub)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_fee_plan)+'</td>'+
+      '<td class="num '+pCls+'">'+fmt(profit)+'</td>'+
+      '<td class="num '+mCls+'">'+fmt(r.margin_on_payout_pct)+'%</td>'+
+      '<td class="mini">'+esc(r.sales_source==='wb_api'?'WB API продажи':'план gsheet')+'</td>'+
+      '</tr>';
+  }).join('');
+  const el = document.getElementById('wbCount');
+  if(el) el.textContent = 'WB: показано '+rows.length+' из '+(DATA.wb||[]).length+' карточек';
+  applyColVisibility('wbTable');
+  applyColWidths('wbTable');
+}
+
+function renderCmpBody(){
+  const tb = document.getElementById('cmpBody');
+  if(!tb) return;
+  const oz = DATA.ozonTotals||{};
+  const wb = DATA.wbTotals||{};
+  const planMode = wb.data_mode === 'plan';
+  const wbRev = planMode ? wb.wb_plan_revenue_sum : wb.wb_revenue;
+  const wbPay = planMode ? wb.wb_plan_payout_sum : wb.wb_payout;
+  const wbTake = planMode ? (wb.wb_plan_take_pct != null ? wb.wb_plan_take_pct : wb.wb_take_pct) : wb.wb_take_pct;
+  const wbQty = planMode ? null : wb.qty_sold;
+  const rows = [
+    ['Выручка, ₽', oz.gross, wbRev],
+    ['Затраты площадки, ₽', oz.fees, (wbRev!=null && wbPay!=null)?Math.round((wbRev-wbPay)*100)/100:null],
+    ['Выплата продавцу, ₽', oz.payout, wbPay],
+    ['Take %', oz.take, wbTake],
+    ['Продано, шт', oz.qty, wbQty],
+    ['SKU / карточек', (DATA.skus||[]).length, wb.n_cards],
+    ['Ср. себестоимость J, ₽', null, null]
+  ];
+  function avgCost(arr, k){
+    let s=0,n=0; (arr||[]).forEach(r=>{ if(r.cost_rub!=null){ s+=r.cost_rub; n++; } });
+    return n?Math.round(s/n*100)/100:null;
+  }
+  rows[6][1] = avgCost(DATA.skus);
+  rows[6][2] = avgCost(DATA.wb);
+  tb.innerHTML = rows.map(function(r){
+    const a=r[1], b=r[2];
+    const d = (a!=null && b!=null) ? Math.round((a-b)*100)/100 : null;
+    return '<tr><td><b>'+esc(r[0])+'</b></td>'+
+      '<td class="num">'+(a==null?'—':fmt(a))+'</td>'+
+      '<td class="num">'+(b==null?'—':fmt(b))+'</td>'+
+      '<td class="num">'+(d==null?'—':fmt(d))+'</td></tr>';
+  }).join('') +
+  (planMode ? '<tr><td colspan="4" class="mini">WB: план gsheet (wb_final_price − wb_fee) — sales API пока без данных / rate-limit</td></tr>' : '');
+}
+
+function renderCmpSkus(){
+  const q = ((document.getElementById('cmpSearch')||{}).value||'').toLowerCase().trim();
+  const only = ((document.getElementById('cmpOnly')||{}).value)||'';
+  const ozMap = {};
+  (DATA.skus||[]).forEach(function(r){
+    const k = (r.offer_id||'').toUpperCase();
+    if(k) ozMap[k] = r;
+  });
+  const wbMap = {};
+  (DATA.wb||[]).forEach(function(r){
+    const k = (r.offer_id||'').toUpperCase();
+    if(k) wbMap[k] = r;
+  });
+  const keys = {};
+  Object.keys(ozMap).forEach(k => keys[k]=1);
+  Object.keys(wbMap).forEach(k => keys[k]=1);
+  let rows = Object.keys(keys).map(function(k){
+    const o = ozMap[k], w = wbMap[k];
+    return {
+      offer_id: k,
+      name: (o&&o.name) || (w&&w.name) || k,
+      ozon_price: o ? (o.price_ozon != null ? o.price_ozon : o.avg_sale_price) : null,
+      wb_price: w ? (w.wb_avg_price != null ? w.wb_avg_price : w.wb_final_price) : null,
+      ozon_qty: o ? o.qty_sold : null,
+      wb_qty: w ? w.qty_sold : null,
+      ozon_pay: o ? (o.qty_sold ? Math.round(((o.payout||0)/Math.max(o.qty_sold,1))*100)/100 : null) : null,
+      wb_pay: w ? w.wb_payout_unit : null,
+      ozon_profit: o ? o.profit_unit : null,
+      wb_profit: w ? w.profit_unit : null,
+      ozon_take: o ? o.ozon_take_pct : null,
+      wb_take: w ? w.wb_take_pct : null,
+      places: (o&&w) ? 'Ozon+WB' : (o ? 'Ozon' : 'WB')
+    };
+  });
+  if(q) rows = rows.filter(r => r.offer_id.toLowerCase().indexOf(q)>=0 || (r.name||'').toLowerCase().indexOf(q)>=0);
+  if(only==='both') rows = rows.filter(r => r.places==='Ozon+WB');
+  else if(only==='ozon') rows = rows.filter(r => r.places==='Ozon');
+  else if(only==='wb') rows = rows.filter(r => r.places==='WB');
+  EXPORT_STATE.cmp = rows;
+  const tb = document.querySelector('#cmpSkuTable tbody');
+  if(!tb) return;
+  const show = rows.slice(0,200);
+  tb.innerHTML = show.map(function(r){
+    const chip = r.places==='Ozon+WB' ? 'accent' : (r.places==='WB' ? 'good' : '');
+    return '<tr>'+
+      '<td><b>'+esc(r.offer_id)+'</b></td>'+
+      '<td class="clip-name">'+esc(r.name)+'</td>'+
+      '<td class="num">'+fmt0(r.ozon_price)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_price)+'</td>'+
+      '<td class="num">'+fmt0(r.ozon_qty)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_qty)+'</td>'+
+      '<td class="num">'+fmt0(r.ozon_pay)+'</td>'+
+      '<td class="num">'+fmt0(r.wb_pay)+'</td>'+
+      '<td class="num">'+fmt(r.ozon_profit)+'</td>'+
+      '<td class="num">'+fmt(r.wb_profit)+'</td>'+
+      '<td class="num">'+fmt(r.ozon_take)+'%</td>'+
+      '<td class="num">'+fmt(r.wb_take)+'%</td>'+
+      '<td><span class="chip '+chip+'">'+esc(r.places)+'</span></td>'+
+      '</tr>';
+  }).join('');
+  const el = document.getElementById('cmpCount');
+  if(el) el.textContent = 'Показано '+show.length+' из '+rows.length+' позиций (Ozon+WB)';
 }
 
 function showErr(msg){
@@ -1499,13 +1765,14 @@ function buildCharts(){
   };
 
   TAB_BUILDERS.wb = function(){
+    const wbTake = (DATA.wbTotals && DATA.wbTotals.wb_take_pct != null) ? DATA.wbTotals.wb_take_pct : DATA.wbTake;
     safeChart('chartWbCompare', {
       type:'radar',
       data:{
         labels:['Комиссия','Логистика','Маркетинг/сервисы','Прочее','Итого take %'],
         datasets:[
           { label:'Ozon', data:[DATA.commPct, DATA.logPct, DATA.svcPct, DATA.miscPct, DATA.takePct], borderColor:'#5b8cff', backgroundColor:'rgba(91,140,255,.2)' },
-          { label:'WB (план)', data:[15, 8, 3, 1, DATA.wbTake], borderColor:'#22c55e', backgroundColor:'rgba(34,197,94,.2)' }
+          { label:'WB', data:[Math.round(wbTake*0.75*10)/10, Math.round(wbTake*0.2*10)/10, 1, Math.round(wbTake*0.05*10)/10, wbTake], borderColor:'#22c55e', backgroundColor:'rgba(34,197,94,.2)' }
         ]
       },
       options:{
@@ -1514,6 +1781,8 @@ function buildCharts(){
         scales:{ r:{ max:70, ticks:{ color:'#8fa3c1', backdropColor:'transparent' }, grid:{ color:'#243552' }, pointLabels:{ color:'#8fa3c1' } } }
       }
     });
+    renderCmpBody();
+    renderCmpSkus();
   };
 }
 
@@ -1597,6 +1866,20 @@ function initFilters(){
     if(cMargin) cMargin.value='';
     renderCosts();
   });
+  bind('wbSearch','input', renderWb);
+  bind('wbMargin','change', renderWb);
+  bind('wbReset','click', function(){
+    const a=document.getElementById('wbSearch'), b=document.getElementById('wbMargin');
+    if(a) a.value=''; if(b) b.value='';
+    renderWb();
+  });
+  bind('cmpSearch','input', renderCmpSkus);
+  bind('cmpOnly','change', renderCmpSkus);
+  bind('cmpReset','click', function(){
+    const a=document.getElementById('cmpSearch'), b=document.getElementById('cmpOnly');
+    if(a) a.value=''; if(b) b.value='';
+    renderCmpSkus();
+  });
   bind('btnPeriod','click', filterDaysByPeriod);
   bind('btnPeriodReset','click', function(){
     document.getElementById('dFrom').value='__DATE_FROM__';
@@ -1625,7 +1908,11 @@ document.addEventListener('DOMContentLoaded', function(){
     renderRecs();
     renderCosts();
     renderFeeTable();
+    renderWb();
+    renderCmpBody();
+    renderCmpSkus();
     initAllColTools();
+    initColTools('wbTable', 'colMenuWb');
     buildCharts();
   }catch(err){
     showErr(err.message);
@@ -1658,8 +1945,17 @@ repl = {
     "__OTHER_PCT__": str(round(100 - comm_pct - log_pct - fee_pct.get("premium", 0) - fee_pct.get("stars", 0) - fee_pct.get("last_mile", 0) - fee_pct.get("acquiring", 0), 2)),
     "__AVG_TAKE__": str(round(sum(s.get("ozon_take_pct") or 0 for s in skus_slim) / max(len(skus_slim), 1), 2)),
     "__AVG_COST__": str(avg_cost),
-    "__WB_TAKE__": str(comparison.get("wb", {}).get("assumed_wb_take_pct", 20)),
-    "__DELTA_TAKE__": str(comparison.get("delta_take_pct", 0)),
+    "__WB_TAKE__": str(wb_totals.get("wb_take_pct", comparison.get("wb", {}).get("assumed_wb_take_pct", 20))),
+    "__DELTA_TAKE__": str(round(take_pct - float(wb_totals.get("wb_take_pct", 20)), 2)),
+    "__WB_N_CARDS__": str(wb_totals.get("n_cards", 0)),
+    "__WB_QTY__": str(wb_totals.get("qty_sold", 0)),
+    "__WB_REV__": f"{wb_totals.get('wb_revenue', 0):,.0f}".replace(",", " "),
+    "__WB_ECON__": json.dumps(wb_skus, ensure_ascii=False),
+    "__WB_TOTALS__": json.dumps(wb_totals, ensure_ascii=False),
+    "__GROSS_NUM__": str(gross),
+    "__FEES_NUM__": str(fees),
+    "__PAYOUT_NUM__": str(payout),
+    "__QTY_NUM__": str(totals.get("qty_sold", 0)),
     "__VERDICT__": comparison.get("verdict", ""),
     "__PLAN_FEE__": str(pvf.get("avg_plan_fee", "—")),
     "__FACT_FEE__": str(pvf.get("avg_fact_fee", "—")),
@@ -1676,7 +1972,7 @@ repl = {
     "__TOTALS__": json.dumps(totals, ensure_ascii=False),
     "__PFACT__": json.dumps(pvf, ensure_ascii=False),
     "__TAKE_PCT_NUM__": str(take_pct),
-    "__WB_TAKE_NUM__": str(comparison.get("wb", {}).get("assumed_wb_take_pct", 20)),
+    "__WB_TAKE_NUM__": str(wb_totals.get("wb_take_pct", comparison.get("wb", {}).get("assumed_wb_take_pct", 20))),
     "__COMM_PCT_NUM__": str(comm_pct),
     "__LOG_PCT_NUM__": str(log_pct),
     "__SVC_PCT_NUM__": str(round(fee_pct.get("premium", 0) + fee_pct.get("stars", 0) + fee_pct.get("review_mgmt", 0) + fee_pct.get("dropoff", 0), 2)),

@@ -1,0 +1,5932 @@
+[
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ },
+ {
+  "nmID": 1939131947,
+  "imtID": 4320469488,
+  "nmUUID": "01a1584e-77b2-71d9-b38c-9c80bb4e32c6",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402892,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489789"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.456227Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.85+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1938744516,
+  "imtID": 4320166551,
+  "nmUUID": "01a1581d-c7e8-794b-863e-b715ac8113ed",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415O10",
+  "brand": "ПуговицНет",
+  "title": "Кнопки Альфа 15мм сталь 10 шт",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3403731907,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059172661654"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:01:49.289054Z",
+  "updatedAt": "2026-10-22T09:42:17.688276Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:01:52.444273+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489429,
+  "imtID": 4321513958,
+  "nmUUID": "01a158e2-fa41-7be9-b72d-5fda6ce8c6dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125O10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666931,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957910"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.824749Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.444587+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131963,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7ed3-b39c-73dfb3ece147",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402920,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489819"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.64331Z",
+  "updatedAt": "2026-10-22T09:42:17.637244Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:03.844747+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489577,
+  "imtID": 4321514094,
+  "nmUUID": "01a158e2-fa41-772a-b73d-117abf693e73",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667137,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957934"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:16.042898Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.8444+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131961,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7723-b398-15ed9fc09129",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415A10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402918,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489796"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643308Z",
+  "updatedAt": "2026-10-22T09:42:16.944939Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.044759+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489361,
+  "imtID": 4321513894,
+  "nmUUID": "01a158e2-fa41-7ba9-b72f-d994211303f3",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125N10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406666855,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957903"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:14.070733Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.448528+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1939131962,
+  "imtID": 4320469504,
+  "nmUUID": "01a1584e-77b2-7c7b-b397-da5af5a48cb9",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM5415Z10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3404402919,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059177489802"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T07:55:00.643309Z",
+  "updatedAt": "2026-10-22T09:42:16.79512Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T10:55:04.144362+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1940489522,
+  "imtID": 4321514022,
+  "nmUUID": "01a158e2-fa41-73ea-b730-e7ec6d66f3dc",
+  "subjectID": 1736,
+  "subjectName": "Аксессуары для рукоделия",
+  "vendorCode": "KM54125BN10",
+  "brand": "",
+  "title": "",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "dimensions": {
+   "width": 0,
+   "height": 0,
+   "length": 0,
+   "weightBrutto": 0,
+   "isValid": false
+  },
+  "sizes": [
+   {
+    "chrtID": 3406667060,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059193957927"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-20T10:37:15.46954Z",
+  "updatedAt": "2026-10-22T09:42:16.736495Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 2,
+    "reason": "documents_missing",
+    "createdAt": "2026-10-20T13:37:17.349984+03:00"
+   },
+   "excludeDocuments": false
+  }
+ },
+ {
+  "nmID": 1959653500,
+  "imtID": 4334204387,
+  "nmUUID": "01a162b2-7937-7dcd-b788-0f8fd887ae9a",
+  "subjectID": 6214,
+  "subjectName": "Аксессуары для штор",
+  "vendorCode": "LST8N20",
+  "brand": "ПуговицНет",
+  "title": "Люверсы стальные, 8 мм, 20шт",
+  "description": "ВНИМАНИЕ: КОЛЕЧКИ СЛИПАЮТСЯ, УЧИТЫВАЙТЕ ЭТО ПРИ ОСМОТРЕ.Фасовка +- 2 штуки. Фасуются по 20 штук (20 блочек + 20 шайб). Внутренний диаметр 8 мм. Материал изделия - сталь.  Люверсы - изделия из категории фурнитуры, которые используются для повышения прочности отверстий в одежде, аксессуарах, обуви, сумках. В дальнейшем в эти отверстия могут продеваться веревки, шнурочки, ленточки, резинки. Используются так же в качестве декоративных украшений для одежды, головных уборов, сумок, кожгалантерейных изделий, а также для декоративной отделки бумаги. Для установки люверса используется насадка арт 45581632. При установке на тонкую ткань рекомендуется использовать дополнительную подложку в виде пластикового кольца арт 47257775. В нашем магазине вы найдете, кнопки для одежды, насадки для кнопок, пресса для установки фурнитуры и много других полезных товаров в рукоделии.",
+  "needKiz": false,
+  "kizMarked": false,
+  "isPrescription": false,
+  "photos": [
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/1.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/1.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/1.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/1.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/1.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/1.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/2.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/2.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/2.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/2.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/2.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/2.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/3.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/3.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/3.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/3.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/3.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/3.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/4.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/4.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/4.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/4.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/4.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/4.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/5.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/5.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/5.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/5.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/5.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/5.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/6.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/6.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/6.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/6.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/6.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/6.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/7.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/7.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/7.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/7.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/7.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/7.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/8.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/8.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/8.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/8.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/8.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/8.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/9.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/9.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/9.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/9.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/9.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/9.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/10.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/10.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/10.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/10.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/10.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/10.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/11.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/11.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/11.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/11.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/11.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/11.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/12.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/12.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/12.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/12.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/12.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/12.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/13.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/13.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/13.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/13.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/13.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/13.webp"
+   },
+   {
+    "big": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/big/14.webp",
+    "c246x328": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c246x328/14.webp",
+    "c516x688": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/c516x688/14.webp",
+    "hq": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/hq/14.webp",
+    "square": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/square/14.webp",
+    "tm": "https://basket-54.wbbasket.ru/vol19596/part1959653/1959653500/images/tm/14.webp"
+   }
+  ],
+  "dimensions": {
+   "width": 11,
+   "height": 16,
+   "length": 1,
+   "weightBrutto": 0.02,
+   "isValid": true
+  },
+  "characteristics": [
+   {
+    "id": 89008,
+    "name": "Вес товара без упаковки (г)",
+    "value": 20
+   },
+   {
+    "id": 15002695,
+    "name": "Вид аксессуара для штор",
+    "value": [
+     "люверсы"
+    ]
+   },
+   {
+    "id": 90702,
+    "name": "Количество предметов в упаковке (шт.)",
+    "value": 20
+   },
+   {
+    "id": 378533,
+    "name": "Комплектация",
+    "value": [
+     "20 комплектов, люверс+кольцо"
+    ]
+   },
+   {
+    "id": 17596,
+    "name": "Материал изделия",
+    "value": [
+     "сталь"
+    ]
+   },
+   {
+    "id": 15001405,
+    "name": "Ставка НДС",
+    "value": [
+     "5"
+    ]
+   },
+   {
+    "id": 14177449,
+    "name": "Цвет",
+    "value": [
+     "серебристый"
+    ]
+   },
+   {
+    "id": 15004139,
+    "name": "Код ТН ВЭД",
+    "value": [
+     "8308100000"
+    ]
+   },
+   {
+    "id": 14177451,
+    "name": "Страна производства",
+    "value": [
+     "Турция"
+    ]
+   },
+   {
+    "id": 15000001,
+    "name": "ТНВЭД",
+    "value": [
+     "8302419000"
+    ]
+   }
+  ],
+  "sizes": [
+   {
+    "chrtID": 3442650355,
+    "techSize": "0",
+    "wbSize": "",
+    "skus": [
+     "2059360323081"
+    ]
+   }
+  ],
+  "createdAt": "2026-10-22T08:20:26.462237Z",
+  "updatedAt": "2026-10-22T09:30:38.138493Z",
+  "documents": {
+   "overallVerdict": {
+    "isFullyChecked": true,
+    "status": 1,
+    "reason": "",
+    "createdAt": "2026-10-22T11:25:36.302995+03:00"
+   },
+   "excludeDocuments": true
+  }
+ }
+]

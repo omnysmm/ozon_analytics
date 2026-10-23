@@ -1,0 +1,4 @@
+C:\Users\Alex\ozon_analytics\fetch_wb_stats.py:49: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print("CALL", key, datetime.utcnow().isoformat(), flush=True)
+C:\Users\Alex\ozon_analytics\fetch_wb_stats.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  st["fetched_at"] = datetime.utcnow().isoformat() + "Z"

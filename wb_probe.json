@@ -1,0 +1,59 @@
+{
+ "sales": {
+  "status": 429,
+  "len": 279,
+  "url": "https://statistics-api.wildberries.ru/api/v1/supplier/sales",
+  "params": {
+   "dateFrom": "2026-09-08T00:00:00.000000000"
+  },
+  "body": "{\"status\":429,\"statusText\":\"Too Many Requests\",\"title\":\"Too Many Requests\",\"detail\":\"rate limit exceeded, retry after the period specified in the X-RateLimit-Retry header\",\"requestId\":\"a6d7c4b37d02f640d9ee664d17de1e17\",\"origin\":\"ag-statistics\",\"timestamp\":\"2026-10-23T13:12:00Z\"}"
+ },
+ "stocks": {
+  "status": 404,
+  "len": 258,
+  "url": "https://statistics-api.wildberries.ru/api/v1/supplier/stocks",
+  "params": {
+   "dateFrom": "2026-09-08T00:00:00.000000000"
+  },
+  "body": "{\"status\":404,\"statusText\":\"Not Found\",\"title\":\"Not Found\",\"detail\":\"This method is deprecated. Link: https://dev.wildberries.ru/release-notes?id=494\",\"requestId\":\"e74dbd7a87cb15890343bf1acc65f15a\",\"origin\":\"ag-statistics\",\"timestamp\":\"2026-10-23T13:12:00Z\"}"
+ },
+ "incomes": {
+  "status": 404,
+  "len": 170,
+  "url": "https://statistics-api.wildberries.ru/api/v1/supplier/incomes",
+  "params": {
+   "dateFrom": "2026-09-08T00:00:00.000000000"
+  },
+  "body": "{\"detail\":\"Please consult the https://dev.wildberries.ru/openapi/api-information\",\"origin\":\"ag-statistics\",\"status\":404,\"statusText\":\"Not Found\",\"title\":\"path not found\"}"
+ },
+ "orders": {
+  "status": 429,
+  "len": 279,
+  "url": "https://statistics-api.wildberries.ru/api/v1/supplier/orders",
+  "params": {
+   "dateFrom": "2026-09-08T00:00:00.000000000"
+  },
+  "body": "{\"status\":429,\"statusText\":\"Too Many Requests\",\"title\":\"Too Many Requests\",\"detail\":\"rate limit exceeded, retry after the period specified in the X-RateLimit-Retry header\",\"requestId\":\"802a9c415740029ccdd09040d14ac0e1\",\"origin\":\"ag-statistics\",\"timestamp\":\"2026-10-23T13:12:01Z\"}"
+ },
+ "reportDetailByPeriod?detail": {
+  "status": 404,
+  "len": 170,
+  "url": "https://statistics-api.wildberries.ru/api/v1/supplier/reportDetailByPeriod",
+  "params": {
+   "dateFrom": "2026-09-08",
+   "dateTo": "2026-10-23"
+  },
+  "body": "{\"detail\":\"Please consult the https://dev.wildberries.ru/openapi/api-information\",\"origin\":\"ag-statistics\",\"status\":404,\"statusText\":\"Not Found\",\"title\":\"path not found\"}"
+ },
+ "info": {
+  "error": "HTTPSConnectionPool(host='suppliers-api.wildberries.ru', port=443): Max retries exceeded with url: /public/api/v1/info (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+  "url": "https://suppliers-api.wildberries.ru/public/api/v1/info"
+ },
+ "list": {
+  "status": 405,
+  "len": 180,
+  "url": "https://content-api.wildberries.ru/content/v2/get/cards/list",
+  "params": null,
+  "body": "{\"detail\":\"Please consult the https://dev.wildberries.ru/openapi/api-information\",\"origin\":\"ag-content\",\"status\":405,\"statusText\":\"Method Not Allowed\",\"title\":\"method not allowed\"}"
+ }
+}

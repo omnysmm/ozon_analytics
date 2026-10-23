@@ -17,7 +17,15 @@ def load_ozon_config():
         "key_content": cfg.get("ozon_api_key_content"),
         "key_analytics": cfg.get("ozon_api_key_analytics"),
         "gsheet_url": cfg.get("gsheet_url"),
+        "wb_token": cfg.get("wb_api_token"),
     }
+
+
+def wb_headers():
+    cfg = load_ozon_config()
+    if not cfg.get("wb_token"):
+        raise FileNotFoundError("wb_api_token missing in ozon_config.json")
+    return {"Authorization": cfg["wb_token"], "Content-Type": "application/json"}
 
 
 def ozon_headers(key=None):
