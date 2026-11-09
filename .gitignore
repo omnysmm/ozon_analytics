@@ -33,3 +33,7 @@ node_modules/
 _xls_test/
 
 _xls_test/
+
+# AllTop / competitor analysis - local only, do not publish
+alltop_*
+new_key_*.json
