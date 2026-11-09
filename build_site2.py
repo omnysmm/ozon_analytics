@@ -63,6 +63,11 @@ totals = web["totals"]
 comparison = web["comparison"]
 pvf = web.get("plan_vs_fact_sheet") or {}
 
+# we-vs-market dataset (October sales + Ozon price indexes + recommendations)
+vs_data = json.load(open(OUT / "vsmarket.json", encoding="utf-8"))
+vs_rows = vs_data.get("rows") or []
+vs_kpi = vs_data.get("kpi") or {}
+
 # keep only needed fields in skus to reduce size
 KEEP = [
     "offer_id", "name", "sku", "qty_sold", "qty_returned", "gross_product", "total_fees",
@@ -234,6 +239,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
   <button type="button" data-tab="sku">По артикулам</button>
   <button type="button" data-tab="fees">Затраты Ozon</button>
   <button type="button" data-tab="prices">Цены и конкуренты</button>
+  <button type="button" data-tab="vsmarket">Сравнение с конкурентами</button>
   <button type="button" data-tab="wbsku">Аналитика WB</button>
   <button type="button" data-tab="wb">Сравнение Ozon vs WB</button>
   <button type="button" data-tab="costs">Себестоимость и маржа</button>
@@ -461,6 +467,82 @@ tr:hover td{background:rgba(91,140,255,.06)}
   </div>
 </section>
 
+<!-- WE vs MARKET -->
+<section class="section" id="sec-vsmarket">
+  <div class="card">
+    <h3>Сравнение с конкурентами: мы vs рынок <span class="mini">(продажи за октябрь 2026)</span></h3>
+    <div class="note">
+      <b>Индекс цены</b> — официальная оценка Ozon (<code>price_indexes</code> из <code>/v5/product/info/prices</code>):
+      <b>RED</b> — цена выше рынка, <b>YELLOW</b> — слегка выше, <b>GREEN</b> — на уровне, <b>SUPER</b> — ниже рынка, <b>без индекса</b> — сопоставимых предложений рынка не найдено.
+      <b>Отклонение %</b> = (индекс − 1) × 100: +N% — дороже рынка на N%. <b>Мин. рынка</b> — минимальная цена сопоставимого предложения (внешние МП / другие продавцы Ozon / Ozon Retail).
+      <b>Продажи</b> — <code>/v1/analytics/data</code>, 2026-10-01 — 2026-10-31.
+      Имена продавцов-конкурентов API не раскрывает.
+    </div>
+    <div class="grid kpi" style="margin:12px 0">
+      <div class="card"><div class="label">SKU в сравнении</div><div class="value" id="vsN">—</div><div class="delta" id="vsPeriod">—</div></div>
+      <div class="card"><div class="label">Выручка октябрь</div><div class="value accent" id="vsRev">—</div><div class="delta" id="vsQty">—</div></div>
+      <div class="card"><div class="label">Выручка под риском</div><div class="value bad" id="vsRisk">—</div><div class="delta">SKU с индексом RED / YELLOW</div></div>
+      <div class="card"><div class="label">Цена выше рынка</div><div class="value bad" id="vsRed">—</div><div class="delta" id="vsYellow">—</div></div>
+      <div class="card"><div class="label">Цена ниже рынка</div><div class="value good" id="vsSuper">—</div><div class="delta">запас для повышения</div></div>
+      <div class="card"><div class="label">На уровне рынка</div><div class="value" id="vsGreen">—</div><div class="delta" id="vsNoIdx">—</div></div>
+      <div class="card"><div class="label">Ср. отклонение</div><div class="value" id="vsDev">—</div><div class="delta">по индексу Ozon</div></div>
+      <div class="card"><div class="label">Проблемных SKU</div><div class="value warn" id="vsProblems">—</div><div class="delta" id="vsProblems2">—</div></div>
+    </div>
+    <div class="filters">
+      <input id="vsSearch" type="search" placeholder="Поиск по артикулу/названию...">
+      <select id="vsFlag">
+        <option value="">Все слабые места</option>
+        <option value="price_high">Цена выше рынка (RED/YELLOW)</option>
+        <option value="price_low">Цена ниже рынка (SUPER)</option>
+        <option value="no_index">Без индекса рынка</option>
+        <option value="no_sales">Нет продаж в октябре</option>
+        <option value="no_traffic">Нет трафика</option>
+        <option value="low_conv">Низкая конверсия</option>
+        <option value="returns">Высокие возвраты</option>
+        <option value="loss">Убыточная экономика</option>
+      </select>
+      <select id="vsSort">
+        <option value="rev">По выручке октября</option>
+        <option value="qty">По продажам октября</option>
+        <option value="dev">По отклонению цены</option>
+        <option value="risk">По риску (RED + выручка)</option>
+      </select>
+      <button type="button" id="vsReset">Сброс фильтров</button>
+    </div>
+    <div class="tbl-wrap">
+      <table id="vsTable">
+        <thead><tr>
+          <th>Артикул</th><th>Название</th>
+          <th class="num">Цена, ₽</th>
+          <th class="num">Мин. рынка, ₽</th>
+          <th class="num">Индекс</th>
+          <th class="num">Откл. %</th>
+          <th>Статус цены</th>
+          <th class="num">Прод. окт, шт</th>
+          <th class="num">Выручка окт, ₽</th>
+          <th class="num">Возвраты, %</th>
+          <th class="num">Конверсия, %</th>
+          <th class="num">Маржа, %</th>
+          <th>Слабые места</th>
+          <th>Рекомендации</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="mini" style="margin-top:8px" id="vsCount">—</div>
+  </div>
+  <div class="grid row2" style="margin-top:14px">
+    <div class="card">
+      <h3>Топ-15 по выручке октября: цена vs ориентир рынка</h3>
+      <div class="chart-box tall"><canvas id="chartVsTop"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Выручка октября по статусу цены</h3>
+      <div class="chart-box tall"><canvas id="chartVsRev"></canvas></div>
+    </div>
+  </div>
+</section>
+
 <!-- WB ANALYTICS -->
 <section class="section" id="sec-wbsku">
   <div class="card">
@@ -634,6 +716,8 @@ const DATA = {
   wbCosts: __WB_COSTS__,
   totals: __TOTALS__,
   planFact: __PFACT__,
+  vs: __VS_ROWS__,
+  vsKpi: __VS_KPI__,
   takePct: __TAKE_PCT_NUM__,
   wbTake: __WB_TAKE_NUM__,
   commPct: __COMM_PCT_NUM__,
@@ -1642,6 +1726,123 @@ function renderFeeTable(){
   }).join('');
 }
 
+/* ---------- WE vs MARKET ---------- */
+function vsColorCls(c){
+  return c === 'RED' ? 'bad' : c === 'YELLOW' ? 'warn' : c === 'SUPER' ? 'accent' : c === 'GREEN' ? 'good' : '';
+}
+function vsFillKpi(){
+  const k = DATA.vsKpi || {};
+  const set = (id, v) => { const el = document.getElementById(id); if(el) el.textContent = v; };
+  set('vsN', (k.n_rows||0).toLocaleString('ru-RU'));
+  set('vsPeriod', k.period || '');
+  set('vsRev', (k.oct_rev_total||0).toLocaleString('ru-RU') + ' ₽');
+  set('vsQty', (k.oct_qty_total||0).toLocaleString('ru-RU') + ' шт за октябрь');
+  set('vsRisk', (k.rev_at_risk||0).toLocaleString('ru-RU') + ' ₽');
+  set('vsRed', (k.n_red||0).toLocaleString('ru-RU') + ' SKU');
+  set('vsYellow', 'YELLOW: ' + (k.n_yellow||0));
+  set('vsSuper', (k.n_super||0).toLocaleString('ru-RU') + ' SKU');
+  set('vsGreen', (k.n_green||0).toLocaleString('ru-RU') + ' SKU');
+  set('vsNoIdx', 'без индекса: ' + (k.n_noindex||0));
+  set('vsDev', (k.avg_dev_pct>0?'+':'') + (k.avg_dev_pct||0) + '%');
+  set('vsProblems', (k.n_dead||0) + (k.n_no_traffic||0) + (k.n_high_returns||0) + (k.n_loss||0));
+  set('vsProblems2', 'без продаж: ' + (k.n_dead||0) + ', без трафика: ' + (k.n_no_traffic||0) +
+      ', возвраты: ' + (k.n_high_returns||0) + ', убыточных: ' + (k.n_loss||0));
+}
+function vsFiltered(){
+  const q = (document.getElementById('vsSearch').value || '').toLowerCase().trim();
+  const flag = document.getElementById('vsFlag').value;
+  const sort = document.getElementById('vsSort').value;
+  let rows = (DATA.vs || []).slice();
+  if(q) rows = rows.filter(r =>
+    (r.offer_id||'').toLowerCase().indexOf(q) >= 0 || (r.name||'').toLowerCase().indexOf(q) >= 0);
+  if(flag === 'price_high') rows = rows.filter(r => r.index_color === 'RED' || r.index_color === 'YELLOW');
+  else if(flag === 'price_low') rows = rows.filter(r => r.index_color === 'SUPER');
+  else if(flag === 'no_index') rows = rows.filter(r => !r.index_value || r.index_color === 'WITHOUT_INDEX');
+  else if(flag === 'no_sales') rows = rows.filter(r => (r.oct_qty||0) === 0);
+  else if(flag === 'no_traffic') rows = rows.filter(r => (r.oct_views||0) === 0);
+  else if(flag === 'low_conv') rows = rows.filter(r => r.conv_pct != null && r.conv_pct < 1 && r.oct_views > 50);
+  else if(flag === 'returns') rows = rows.filter(r => (r.return_rate||0) >= 15);
+  else if(flag === 'loss') rows = rows.filter(r => r.profit_unit != null && r.profit_unit <= 0);
+  if(sort === 'qty') rows.sort((a,b) => (b.oct_qty||0)-(a.oct_qty||0));
+  else if(sort === 'dev') rows.sort((a,b) => (b.dev_pct||0)-(a.dev_pct||0));
+  else if(sort === 'risk') rows.sort((a,b) => {
+    const ra = (a.index_color==='RED'||a.index_color==='YELLOW') ? (a.oct_rev||0) : 0;
+    const rb = (b.index_color==='RED'||b.index_color==='YELLOW') ? (b.oct_rev||0) : 0;
+    return rb - ra;
+  });
+  else rows.sort((a,b) => (b.oct_rev||0)-(a.oct_rev||0));
+  return rows;
+}
+function renderVsMarket(){
+  vsFillKpi();
+  const rows = vsFiltered();
+  const tb = document.querySelector('#vsTable tbody');
+  const n = Math.min(rows.length, 200);
+  let html = '';
+  for(let i = 0; i < n; i++){
+    const r = rows[i];
+    const cls = vsColorCls(r.index_color);
+    const dev = r.dev_pct == null ? '—' : (r.dev_pct > 0 ? '+' : '') + r.dev_pct + '%';
+    html += '<tr>' +
+      '<td>' + (r.offer_id||'') + '</td>' +
+      '<td>' + (r.name||'') + '</td>' +
+      '<td class="num">' + (r.our_price != null ? r.our_price.toLocaleString('ru-RU') : '—') + '</td>' +
+      '<td class="num">' + (r.min_market != null ? r.min_market.toLocaleString('ru-RU') : '—') + '</td>' +
+      '<td class="num">' + (r.index_value != null ? r.index_value : '—') + '</td>' +
+      '<td class="num">' + dev + '</td>' +
+      '<td><span class="pill ' + cls + '">' + (r.index_color||'—') + '</span></td>' +
+      '<td class="num">' + (r.oct_qty||0).toLocaleString('ru-RU') + '</td>' +
+      '<td class="num">' + (r.oct_rev||0).toLocaleString('ru-RU') + '</td>' +
+      '<td class="num">' + (r.return_rate != null ? r.return_rate : '—') + '</td>' +
+      '<td class="num">' + (r.conv_pct != null ? r.conv_pct : '—') + '</td>' +
+      '<td class="num">' + (r.margin_pct != null ? r.margin_pct : '—') + '</td>' +
+      '<td>' + (r.flag_str || '—') + '</td>' +
+      '<td>' + (r.recommendation || '—') + '</td>' +
+      '</tr>';
+  }
+  tb.innerHTML = html;
+  const el = document.getElementById('vsCount');
+  if(el) el.textContent = 'Показано ' + n + ' из ' + rows.length + ' (всего ' + (DATA.vs||[]).length + ' SKU)';
+
+  // chart: top-15 by revenue — our price vs market min
+  const top = (DATA.vs||[]).slice().sort((a,b) => (b.oct_rev||0)-(a.oct_rev||0)).slice(0, 15);
+  safeChart('chartVsTop', {
+    type: 'bar',
+    data: {
+      labels: top.map(r => (r.offer_id||'').slice(0, 16)),
+      datasets: [
+        { label: 'Наша цена, ₽', data: top.map(r => r.our_price||0), backgroundColor: 'rgba(91,140,255,.75)' },
+        { label: 'Мин. рынка, ₽', data: top.map(r => r.min_market||0), backgroundColor: 'rgba(239,68,68,.55)' }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: '#8fa3c1' } } },
+      scales: {
+        x: { ticks: { color: '#8fa3c1', maxRotation: 45, minRotation: 30 }, grid: { color: '#243552' } },
+        y: { ticks: { color: '#8fa3c1' }, grid: { color: '#243552' } }
+      }
+    }
+  });
+  // chart: revenue by price status
+  const byCls = {RED: 0, YELLOW: 0, GREEN: 0, SUPER: 0, WITHOUT_INDEX: 0};
+  (DATA.vs||[]).forEach(function(r){
+    const c = byCls[r.index_color] != null ? r.index_color : 'WITHOUT_INDEX';
+    byCls[c] += (r.oct_rev||0);
+  });
+  safeChart('chartVsRev', {
+    type: 'doughnut',
+    data: {
+      labels: ['RED — выше рынка','YELLOW — слегка выше','GREEN — на уровне','SUPER — ниже рынка','Без индекса'],
+      datasets: [{ data: [byCls.RED, byCls.YELLOW, byCls.GREEN, byCls.SUPER, byCls.WITHOUT_INDEX],
+        backgroundColor: ['#ef4444','#f59e0b','#22c55e','#5b8cff','#64748b'] }]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#8fa3c1' } } } }
+  });
+}
+TAB_BUILDERS.vsmarket = function(){ renderVsMarket(); };
+
+
 /* ---------- CHARTS ---------- */
 function buildCharts(){
   const days = DATA.days||[];
@@ -1883,6 +2084,15 @@ function initFilters(){
     if(a) a.value=''; if(b) b.value='';
     renderCmpSkus();
   });
+  bind('vsSearch','input', renderVsMarket);
+  bind('vsFlag','change', renderVsMarket);
+  bind('vsSort','change', renderVsMarket);
+  bind('vsReset','click', function(){
+    document.getElementById('vsSearch').value='';
+    document.getElementById('vsFlag').value='';
+    document.getElementById('vsSort').value='rev';
+    renderVsMarket();
+  });
   bind('btnPeriod','click', filterDaysByPeriod);
   bind('btnPeriodReset','click', function(){
     document.getElementById('dFrom').value='__DATE_FROM__';
@@ -1978,6 +2188,8 @@ repl = {
     "__FEE_PCT__": json.dumps(fee_pct, ensure_ascii=False),
     "__SKUS__": json.dumps(skus_slim, ensure_ascii=False),
     "__RECS__": json.dumps(recs, ensure_ascii=False),
+    "__VS_ROWS__": json.dumps(vs_rows, ensure_ascii=False),
+    "__VS_KPI__": json.dumps(vs_kpi, ensure_ascii=False),
     "__WB_COSTS__": json.dumps(wb_costs[:80], ensure_ascii=False),
     "__TOTALS__": json.dumps(totals, ensure_ascii=False),
     "__PFACT__": json.dumps(pvf, ensure_ascii=False),
