@@ -475,8 +475,9 @@ tr:hover td{background:rgba(91,140,255,.06)}
       <b>Индекс цены</b> — официальная оценка Ozon (<code>price_indexes</code> из <code>/v5/product/info/prices</code>):
       <b>RED</b> — цена выше рынка, <b>YELLOW</b> — слегка выше, <b>GREEN</b> — на уровне, <b>SUPER</b> — ниже рынка, <b>без индекса</b> — сопоставимых предложений рынка не найдено.
       <b>Отклонение %</b> = (индекс − 1) × 100: +N% — дороже рынка на N%. <b>Мин. рынка</b> — минимальная цена сопоставимого предложения (внешние МП / другие продавцы Ozon / Ozon Retail).
+      <b>Конкурент (ссылка)</b> — прямая ссылка на самый дешёвый чужой оффер, собранная с витрины Ozon (поиск по названию → мин. цена, без наших карточек); где ссылка не собрана — переход в поиск Ozon с сортировкой по цене.
       <b>Продажи</b> — <code>/v1/analytics/data</code>, 2026-10-01 — 2026-10-31.
-      Имена продавцов-конкурентов API не раскрывает.
+      Имена продавцов-конкурентов API не раскрывает (<code>competitor_index_data</code> = null).
     </div>
     <div class="grid kpi" style="margin:12px 0">
       <div class="card"><div class="label">SKU в сравнении</div><div class="value" id="vsN">—</div><div class="delta" id="vsPeriod">—</div></div>
@@ -515,6 +516,7 @@ tr:hover td{background:rgba(91,140,255,.06)}
           <th>Артикул</th><th>Название</th>
           <th class="num">Цена, ₽</th>
           <th class="num">Мин. рынка, ₽</th>
+          <th>Конкурент (ссылка)</th>
           <th class="num">Индекс</th>
           <th class="num">Откл. %</th>
           <th>Статус цены</th>
@@ -1730,6 +1732,16 @@ function renderFeeTable(){
 function vsColorCls(c){
   return c === 'RED' ? 'bad' : c === 'YELLOW' ? 'warn' : c === 'SUPER' ? 'accent' : c === 'GREEN' ? 'good' : '';
 }
+function vsCompCell(r){
+  if(r.comp_href){
+    const label = (r.comp_price != null ? r.comp_price.toLocaleString('ru-RU') + ' ₽' : 'открыть') + ' ↗';
+    return '<a href="' + esc(r.comp_href) + '" target="_blank" rel="noopener" title="' +
+      esc(r.comp_name || 'карточка конкурента на Ozon') + '">' + label + '</a>';
+  }
+  const q = encodeURIComponent(r.name || r.offer_id || '');
+  return '<a class="mini" href="https://www.ozon.ru/search/?text=' + q + '&sorting=price" target="_blank" rel="noopener" ' +
+    'title="Поиск Ozon по названию, сортировка по цене (ссылка на конкурента не собрана)">поиск ↗</a>';
+}
 function vsFillKpi(){
   const k = DATA.vsKpi || {};
   const set = (id, v) => { const el = document.getElementById(id); if(el) el.textContent = v; };
@@ -1788,6 +1800,7 @@ function renderVsMarket(){
       '<td>' + (r.name||'') + '</td>' +
       '<td class="num">' + (r.our_price != null ? r.our_price.toLocaleString('ru-RU') : '—') + '</td>' +
       '<td class="num">' + (r.min_market != null ? r.min_market.toLocaleString('ru-RU') : '—') + '</td>' +
+      '<td>' + vsCompCell(r) + '</td>' +
       '<td class="num">' + (r.index_value != null ? r.index_value : '—') + '</td>' +
       '<td class="num">' + dev + '</td>' +
       '<td><span class="pill ' + cls + '">' + (r.index_color||'—') + '</span></td>' +

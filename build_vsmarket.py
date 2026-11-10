@@ -29,6 +29,22 @@ for r in oct_rows:
     if off:
         oct_by_offer[off] = r
 
+# competitor links resolved from storefront search (partial: top SKUs)
+comp_by_offer = {}
+try:
+    comp_raw = json.load(open(OUT / "competitor_links.json", encoding="utf-8"))
+    for off, v in comp_raw.items():
+        c = (v or {}).get("comp")
+        if c and c.get("href"):
+            href = c["href"]
+            if href.startswith("/"):
+                href = "https://www.ozon.ru" + href
+            href = href.split("?")[0]
+            comp_by_offer[off] = {"comp_price": c.get("price"), "comp_href": href, "comp_name": c.get("name")}
+except Exception:
+    pass
+print("competitor links loaded:", len(comp_by_offer))
+
 rows = []
 all_offers = sorted(set(list(price_by_offer) + list(econ_by_offer) + list(oct_by_offer)))
 for off in all_offers:
@@ -134,6 +150,7 @@ for off in all_offers:
     if not recs:
         recs.append("Позиция конкурентоспособна — удерживать цену")
 
+    comp = comp_by_offer.get(off) or {}
     rows.append({
         "offer_id": off,
         "name": e.get("name") or o.get("name") or "",
@@ -144,6 +161,9 @@ for off in all_offers:
         "min_external": m_ext,
         "min_ozon": m_oz,
         "min_self": m_sm,
+        "comp_price": comp.get("comp_price"),
+        "comp_href": comp.get("comp_href"),
+        "comp_name": comp.get("comp_name"),
         "index_value": val or None,
         "index_src": val_src,
         "dev_pct": dev_pct,
