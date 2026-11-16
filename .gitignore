@@ -1,5 +1,6 @@
 # Secrets / local config
 ozon_config.json
+.curlhdrs.txt
 .env
 *.key
 *.pem
